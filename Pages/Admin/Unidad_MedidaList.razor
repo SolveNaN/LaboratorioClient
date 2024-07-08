@@ -1,0 +1,116 @@
+﻿@page "/unidadmedida"
+@inject HttpClient Http
+@using LaboratorioClient.Models
+<div>
+    <NavMenu />
+</div>
+<br />
+<br />
+<div class="section-title">
+    <h2>Unidad de Medida</h2>
+</div>
+<div class="row" style="display:flex;justify-content:center">
+    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTipoUnidad" aria-controls="offcanvasScrolling">
+        <img src="unidadmedida.jpg" class="img-fluid" alt="...">
+    </div>
+    <div class="col-6" style="display:flex;align-items:center">
+
+        <div class="card" style="width:650px; max-height:400px ;height:auto"
+                <div class="card-body. overflow-scroll">
+                    <table  class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Tipo Unidad </th>
+                                <th>Nombre Unidad Medida </th>
+                                <th>Nemotecnico </th>
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var i in ListadoUnidadMedida)
+                        {
+                                        <tr>
+                                            <td>@i.E12_Tipo_Unidad.Descripcion_Tipo_Unidad_E12</td>
+                                            <td>@i.Nombre_Unidad_Medida_E13</td>
+                                            <td>@i.Nemotecnico_E13</td>
+                                            <td> <button type="button"  class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                                        </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasTipoUnidad" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Listado Unidad de Medida</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Laboratorio activo con presencia en mas de 18 paises</p>
+        <br />
+        <div>
+            <label>Nombre</label>
+            <input @bind-value=unidadmedida.Nombre_Unidad_Medida_E13 class="form-control" placeholder="Nombre" />
+            <label>Nemotecnico</label>
+            <input @bind-value=unidadmedida.Nemotecnico_E13 class="form-control" placeholder="Nemotecnico" />
+            <label>Tipo Unidad</label>
+            <select @bind=unidadmedida.E12_Tipo_UnidadId class="form-select" aria-label="Default select example">
+                <option selected>Abrir Lista de tipos de unidad</option>
+                @foreach (var i in TipoUnidadListado)
+                {
+                    <option value=@i.Id>@i.Descripcion_Tipo_Unidad_E12</option>
+                }
+            </select>
+            <button @onclick=Guardar type="button" class="btn btn-secondary">
+                Guardar
+            </button>
+            <br />
+            <label>@RespuestaAlCrear</label>
+
+        </div>
+    </div>
+</div>
+
+
+@code {
+    Conexion miconexion = new Conexion();
+    E13_Unidad_Medida unidadmedida = new E13_Unidad_Medida();
+    string RespuestaAlCrear = "";
+    public static List<E12_Tipo_Unidad> TipoUnidadListado = new List<E12_Tipo_Unidad>();
+    public static List<E13_Unidad_Medida> ListadoUnidadMedida = new List<E13_Unidad_Medida>();
+    async Task Guardar()
+    {
+        RespuestaAlCrear = "Procesando...";
+        var respuesta = await Http.PostAsJsonAsync($"{miconexion.Servidor}/api/E13_Unidad_Medida/Crear", unidadmedida);
+        await Actualizar();
+        RespuestaAlCrear = await respuesta.Content.ReadAsStringAsync();
+        unidadmedida.Nombre_Unidad_Medida_E13 = null;
+        unidadmedida.Nemotecnico_E13 = null;
+
+    }
+
+    async Task Actualizar()
+    {
+        var listado = await Http.GetFromJsonAsync<List<E13_Unidad_Medida>>($"{miconexion.Servidor}/api/E13_Unidad_Medida/Listado");
+        ListadoUnidadMedida = listado;
+        var listadotipounidad = await Http.GetFromJsonAsync<List<E12_Tipo_Unidad>>($"{miconexion.Servidor}/api/E12_Tipo_Unidad/Listado");
+        TipoUnidadListado = listadotipounidad;
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await Actualizar();
+    }
+    async Task Eliminar(E13_Unidad_Medida objeto)
+    {
+
+
+        var respuesta = await Http.DeleteAsync($"{miconexion.Servidor}/api/E13_Unidad_Medida/Eliminar/{objeto.Id}");
+        Console.WriteLine(respuesta);
+        await Actualizar();
+    }
+
+}

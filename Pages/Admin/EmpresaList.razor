@@ -1,0 +1,140 @@
+﻿@page "/empresalist"
+@inject HttpClient Http
+@using LaboratorioClient.Models
+<div>
+      <NavMenu />
+ </div>
+<br />
+<br />
+<div class="section-title">
+    <h2>Empresa</h2>
+</div>
+
+<div class="row" style="display:flex;justify-content:center">
+    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEmpresa" aria-controls="offcanvasScrolling">
+        <img src="industria.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-6" style="display:flex;align-items:center">
+        <div class="card" style="width:auto;max-width:650px; max-height:400px ;height:auto"
+                <div class="card-body. overflow-scroll">
+                    <table  class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th> Codigo Tipo Empresa</th>
+                                <th> Nombre Empresa</th>
+                                <th> Codigo Empresa Superior</th>
+                                <th> Ciudad</th>
+                                <th> Dirección</th>
+                                <th> Teléfono</th>
+                                <th> Fecha Creacion</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var i in ListadoEmpresas)
+                        {
+                                    <tr>
+                                            <td>@i.A1_Tipo_Empresa.Descripcion_Tipo_Empresa_A1</td>
+                                            <td>@i.Nombre_Empresa_A2</td>
+                                            <td>@i.ID_Empresa_Superior_A2</td>
+                                            <td>@i.A6_Ciudad.Nombre_Ciudad_A6</td>
+                                            <td>@i.Direccion_A2</td>
+                                            <td>@i.Telefono_A2</td>
+                                            <td> <button type="button"  class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                                    </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        
+
+
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasEmpresa" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Listado Empresa</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Laboratorio activo con presencia en mas de 18 paises</p>
+        <br />
+        <div>
+            
+            <label>Tipo Empresa</label>
+            <select @bind=nuevaempresa.A1_Tipo_EmpresaId class="form-select" aria-label="Default select example">
+                <option selected>Abrir lista de tipos de empresa</option>
+                @foreach (var i in ListadoTipoEmpresa)
+                {
+                    <option value=@i.Id> @i.Descripcion_Tipo_Empresa_A1</option>
+                }
+            </select>
+            <label>Nombre Empresa</label>
+            <input @bind-value=nuevaempresa.Nombre_Empresa_A2 class="form-control" placeholder="Nombre Empresa" />
+            <label>ID Empresa Superior</label>
+            <input @bind-value=nuevaempresa.ID_Empresa_Superior_A2 class="form-control" placeholder="ID Empresa Superior" />
+            <label>ID Ciudad</label>
+            <select @bind=nuevaempresa.A6_CiudadId class="form-select" aria-label="Default select example">
+                <option selected>Abrir lista de cuidades</option>
+                @foreach (var i in ListadoCiudades)
+                {
+                    <option value=@i.Id>@i.Nombre_Ciudad_A6</option>
+                }
+            </select>
+            <label>Dirección</label>
+            <input @bind-value=nuevaempresa.Direccion_A2 class="form-control" placeholder="Dirección" />
+            <label>Teléfono</label>
+            <input @bind-value=nuevaempresa.Telefono_A2 class="form-control" placeholder="Teléfono" />
+            <br />
+            <button @onclick=Guardar type="button" class="btn btn-secondary">
+                Guardar
+            </button>
+            <br />
+            <label>@RespuestaAlCrear</label>
+
+        </div>
+    </div>
+</div>
+
+
+@code {
+    A2_Empresa nuevaempresa = new A2_Empresa();
+    string RespuestaAlCrear = "";
+    public static List<A2_Empresa> ListadoEmpresas= new List<A2_Empresa>();
+    public static List<A6_Ciudad> ListadoCiudades = new List<A6_Ciudad>();
+    public static List<A1_Tipo_Empresa> ListadoTipoEmpresa = new List<A1_Tipo_Empresa>();
+    Conexion miconexion = new Conexion();
+    async Task Guardar()
+    {
+        RespuestaAlCrear = "Procesando...";
+        var respuesta = await Http.PostAsJsonAsync($"{miconexion.Servidor}/api/A2_Empresa/Crear", nuevaempresa);
+        await Actualizar();
+        RespuestaAlCrear = await respuesta.Content.ReadAsStringAsync();
+        //nuevotipousuario.Nombre_Ciudad_A6 = null;
+
+    }
+
+    async Task Actualizar()
+    {
+        
+        var listadotipoempresa = await Http.GetFromJsonAsync<List<A1_Tipo_Empresa>>($"{miconexion.Servidor}/api/A1_Tipo_Empresa/Listado");
+        ListadoTipoEmpresa = listadotipoempresa;
+        var listaempresas = await Http.GetFromJsonAsync<List<A2_Empresa>>($"{miconexion.Servidor}/api/A2_Empresa/Listado");
+        ListadoEmpresas = listaempresas;
+        var listadoCiudad = await Http.GetFromJsonAsync<List<A6_Ciudad>>($"{miconexion.Servidor}/api/A6_Ciudad/Listado");
+        ListadoCiudades = listadoCiudad;
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await Actualizar();
+    }
+    async Task Eliminar(A2_Empresa objeto)
+    {
+        var respuesta = await Http.DeleteAsync($"{miconexion.Servidor}/api/A2_Empresa/Eliminar/{objeto.Id}");
+      
+        Console.WriteLine(respuesta);
+        await Actualizar();
+    }
+}

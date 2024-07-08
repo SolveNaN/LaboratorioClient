@@ -1,0 +1,175 @@
+﻿@page "/especificacionescomponente"
+@inject HttpClient Http
+@using LaboratorioClient.Models
+<div>
+      <NavMenu />
+ </div>
+
+<br />
+<br />
+<div class="section-title">
+    <h2>Especificacion componente</h2>
+</div>
+
+
+<div class="row" style="display:flex;justify-content:center">
+    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasPaises" aria-controls="offcanvasScrolling">
+        <img src="Especificacionescomponente.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-4" style="display:flex;align-items:center">
+        <div class="card" style="width:800px; max-height:400px ;height:auto"
+                <div class="card-body. overflow-scroll">
+                    <table   class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Dias de Almacenamiento</th>
+                                <th>Modelo</th>
+                                <th>Caracteristica Especial</th>
+                                <th>Descripcion Tipo de Aplicacion</th>
+                                <th>Descripcion Tipo de Componente</th>
+                                <th>Descripcion Marca</th>
+                                <th>Descripcion Lubricante</th>
+                                <th>Descripcion Combustible</th>
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var i in Listado)
+                        {
+                                        <tr>
+                                                <td>@i.Dias_Almacenamiento_Standard_E4</td>
+                                                <td>@i.Modelo_E4</td>
+                                                <td>@i.Caracteristica_Especial_E4</td>
+                                                <td>@i.E1_Tipo_Aplicacion.Descripcion_Aplicacion_E1</td>
+                                                <td>@i.E3_Tipo_Componente.Descripcion_Componente_E3</td>
+                                                <td>@i.E11_Marca.Descripcion_Marca_E11</td>
+                                                <td>@i.E8_Lubricante.Descripcion_Lubricante_E8</td>
+                                                <td>@i.E10_Combustible.Descripcion_Combustible_E10</td>
+                                                <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                                        </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+       
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasPaises" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Listado Especificacion componente</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Laboratorio activo con presencia en mas de 18 paises</p>
+        <br />
+        <div>
+            <label>Dias de almacenamiento</label>
+            <input @bind-value=nuevoespecificacioncomponente.Dias_Almacenamiento_Standard_E4 class="form-control" placeholder="dias" />
+            <label>Modelo</label>
+            <input @bind-value=nuevoespecificacioncomponente.Modelo_E4 class="form-control" placeholder="Modelo" />
+            <label>Caracteristicas</label>
+            <input @bind-value=nuevoespecificacioncomponente.Caracteristica_Especial_E4 class="form-control" placeholder="Caracteristicas" />
+            <label>Tipo aplicacion</label>
+            <select @bind=nuevoespecificacioncomponente.E1_Tipo_AplicacionId class="form-select" aria-label="Default select example">
+                <option selected>Abrir listado de tipos de aplicacion</option>
+                @foreach (var i in ListadoE1_Tipo_Aplicacion)
+                {
+                    <option value=@i.Id>@i.Descripcion_Aplicacion_E1</option>
+                }
+            </select>
+            <label>Tipo Componente</label>
+            <select @bind=nuevoespecificacioncomponente.E3_Tipo_ComponenteId class="form-select" aria-label="Default select example">
+                <option selected>Abrir listado de tipos de componente</option>
+                @foreach (var i in ListadoE3_Tipo_Componente)
+                {
+                    <option value=@i.Id>@i.Descripcion_Componente_E3</option>
+                }
+            </select>
+            <label>Marca</label>
+            <select @bind=nuevoespecificacioncomponente.E11_MarcaId class="form-select" aria-label="Default select example">
+                <option selected>Abrir listado de marcas</option>
+                @foreach (var i in ListadoE11_Marca)
+                {
+                    <option value=@i.Id>@i.Descripcion_Marca_E11</option>
+                }
+            </select>
+            <label>Lubricante</label>
+            <select @bind=nuevoespecificacioncomponente.E8_LubricanteId class="form-select" aria-label="Default select example">
+                <option selected>Abrir listado de lubricantes</option>
+                @foreach (var i in ListadoE8_Lubricante)
+                {
+                    <option value=@i.Id>@i.Descripcion_Lubricante_E8</option>
+                }
+            </select>
+            <label>Combustible</label>
+            <select @bind=nuevoespecificacioncomponente.E10_CombustibleId class="form-select" aria-label="Default select example">
+                <option selected>Abrir listado de combustibles</option>
+                @foreach (var i in ListadoE10_Combustible)
+                {
+                    <option value=@i.Id>@i.Descripcion_Combustible_E10</option>
+                }
+            </select>
+            <br />
+            <button @onclick=Guardar type="button" class="btn btn-secondary">
+                Guardar
+            </button>
+            <br />
+            <label>@RespuestaAlCrear</label>
+
+        </div>
+    </div>
+</div>
+
+@code {
+    Conexion miconexion = new Conexion();
+    E4_Especificaciones_Componente nuevoespecificacioncomponente = new E4_Especificaciones_Componente();
+    string RespuestaAlCrear = "";
+    public static List<E4_Especificaciones_Componente> Listado = new List<E4_Especificaciones_Componente>();
+    public static List<E1_Tipo_Aplicacion> ListadoE1_Tipo_Aplicacion = new List<E1_Tipo_Aplicacion>();
+    public static List<E3_Tipo_Componente> ListadoE3_Tipo_Componente = new List<E3_Tipo_Componente>();
+    public static List<E11_Marca> ListadoE11_Marca = new List<E11_Marca>();
+    public static List<E8_Lubricante> ListadoE8_Lubricante = new List<E8_Lubricante>();
+    public static List<E10_Combustible> ListadoE10_Combustible = new List<E10_Combustible>();
+    async Task Guardar()
+    {
+        RespuestaAlCrear = "Procesando...";
+        var respuesta = await Http.PostAsJsonAsync($"{miconexion.Servidor}/api/E4_Especificaciones_Componente/Crear", nuevoespecificacioncomponente);
+        await Actualizar();
+        RespuestaAlCrear = await respuesta.Content.ReadAsStringAsync();
+        nuevoespecificacioncomponente.Modelo_E4 = null;
+        nuevoespecificacioncomponente.Caracteristica_Especial_E4 = null;
+
+    }
+
+    async Task Actualizar()
+    {
+        var listado = await Http.GetFromJsonAsync<List<E4_Especificaciones_Componente>>($"{miconexion.Servidor}/api/E4_Especificaciones_Componente/Listado");
+        Listado = listado;
+        var listadotipoaplicacion = await Http.GetFromJsonAsync<List<E1_Tipo_Aplicacion>>($"{miconexion.Servidor}/api/E1_Tipo_Aplicacion/Listado");
+        ListadoE1_Tipo_Aplicacion = listadotipoaplicacion;
+        var listadotipocomponente = await Http.GetFromJsonAsync<List<E3_Tipo_Componente>>($"{miconexion.Servidor}/api/E3_Tipo_Componente/Listado");
+        ListadoE3_Tipo_Componente = listadotipocomponente;
+        var listadomarcas = await Http.GetFromJsonAsync<List<E11_Marca>>($"{miconexion.Servidor}/api/E11_Marca/Listado");
+        ListadoE11_Marca = listadomarcas;
+        var listadolubricante = await Http.GetFromJsonAsync<List<E8_Lubricante>>($"{miconexion.Servidor}/api/E8_Lubricante/Listado");
+        ListadoE8_Lubricante = listadolubricante;
+        var listadocombustible = await Http.GetFromJsonAsync<List<E10_Combustible>>($"{miconexion.Servidor}/api/E10_Combustible/Listado");
+        ListadoE10_Combustible = listadocombustible;
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await Actualizar();
+    }
+    async Task Eliminar(E4_Especificaciones_Componente objeto)
+    {
+
+
+        var respuesta = await Http.DeleteAsync($"{miconexion.Servidor}/api/E4_Especificaciones_Componente/Eliminar/{objeto.Id}");
+        Console.WriteLine(respuesta);
+        await Actualizar();
+    }
+}
+

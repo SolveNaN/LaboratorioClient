@@ -1,0 +1,73 @@
+﻿@page "/registro"
+@inject HttpClient Http
+@using LaboratorioClient.Models
+<div>
+      <NavMenu />
+ </div>
+
+<h1>Registrar Usuario</h1>
+<label>Nombre</label>
+<input placeholder="Nombre Usuario" @bind=usuario.Nombre class="form-control" />
+<label>Correo</label>
+<input placeholder="Usuario" @bind=usuario.Correo class="form-control" />
+<label>Contraseña</label>
+<input placeholder="Clave" @bind=usuario.Password class="form-control" />
+<label>Tipo Usuario</label>
+<select @bind=usuario.ID_Tipo_Usuario_A4_A3 class="form-select" aria-label="Default select example">
+	<option selected>Open this select menu</option>
+	@foreach (var i in ListadoTipoUsuario)
+	{
+		<option value=@i.Id>@i.Descripcion_Tipo_Usuario_A3</option>
+	}
+</select>
+<label>Ciudad</label>
+<select @bind=usuario.ID_Ciudad_A4_A6 class="form-select" aria-label="Default select example">
+	<option selected>Open this select menu</option>
+	@foreach (var i in ListadoCiudades)
+	{
+		<option value=@i.Id>@i.Nombre_Ciudad_A6</option>
+	}
+</select>
+<label>Empresa</label>
+<select @bind=usuario.ID_Empresa_A4_A2 class="form-select" aria-label="Default select example">
+	<option selected>Open this select menu</option>
+	@foreach (var i in ListadoEmpresas)
+	{
+		<option value=@i.Id>@i.Nombre_Empresa_A2</option>
+	}
+</select>
+
+<button class="btn btn-primary" @onclick="Registrar">Registrar</button>
+<h3>@mensaje</h3>
+@code {
+	Conexion miconexion = new Conexion();
+	UsuarioDTO usuario = new UsuarioDTO();
+	public static List<A6_Ciudad> ListadoCiudades = new List<A6_Ciudad>();
+	public static List<A2_Empresa> ListadoEmpresas = new List<A2_Empresa>();
+	public static List<A3_Tipo_Usuario> ListadoTipoUsuario = new List<A3_Tipo_Usuario>();
+	string mensaje = "";
+	async Task Registrar()
+	{
+	
+		var resultado = await Http.PostAsJsonAsync($"{miconexion.Servidor}/api/A4_Usuario/Registrar", usuario);
+		mensaje = await resultado.Content.ReadAsStringAsync();
+		// Console.WriteLine(resultado);
+	}
+
+	async Task Actualizar()
+	{
+		
+		var listadoCiudad = await Http.GetFromJsonAsync<List<A6_Ciudad>>($"{miconexion.Servidor}/api/A6_Ciudad/Listado");
+		ListadoCiudades = listadoCiudad;
+
+		var listadoempresa = await Http.GetFromJsonAsync<List<A2_Empresa>>($"{miconexion.Servidor}/api/A2_Empresa/Listado");
+		ListadoEmpresas = listadoempresa;
+
+		var listadotipousuario = await Http.GetFromJsonAsync<List<A3_Tipo_Usuario>>($"{miconexion.Servidor}/api/A3_Tipo_Usuario/Listado");
+		ListadoTipoUsuario = listadotipousuario;
+	}
+	protected override async Task OnInitializedAsync()
+	{
+		await Actualizar();
+	}
+}

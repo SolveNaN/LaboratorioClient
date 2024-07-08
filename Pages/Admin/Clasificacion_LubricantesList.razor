@@ -1,0 +1,125 @@
+﻿@page "/clasificacionlubricantes"
+@inject HttpClient Http
+@using LaboratorioClient.Models
+<div>
+      <NavMenu />
+ </div>
+<br />
+<br />
+<div class="section-title">
+    <h2>Clasificación Lubricantes</h2>
+</div>
+
+<div class="row" style="display:flex;justify-content:center">
+    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTipoUnidad" aria-controls="offcanvasScrolling">
+        <img src="Clasificacionlubricantes.png" class="img-fluid" alt="...">
+    </div>
+    <div class="col-4" style="display:flex;align-items:center">
+
+        <div class="card" style="width:500px; max-height:400px ;height:auto"
+                <div class="card-body. overflow-scroll">
+                    <table   class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nombre Lubricante</th>
+                                <th>Clasificacion</th>
+
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var i in ListadoClasif)
+                        {
+                                        <tr>
+                                            <td>@i.E8_Lubricante.Descripcion_Lubricante_E8</td>
+                                            <td>@i.E7_Clasificacion.Descripcion_Clasificacion_Lube_E7</td>
+                                                <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                                        </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        
+
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasTipoUnidad" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Listado Clasificación Lubricantes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Laboratorio activo con presencia en mas de 18 paises</p>
+        <br />
+        <div>
+            
+            <label>Lubricante</label>
+            <select @bind=nuevoclasificacionlubricante.E8_LubricanteId class="form-select" aria-label="Default select example">
+                <option selected>Abrir listado de lubricantes</option>
+                @foreach (var i in Listado)
+                {
+                    <option value=@i.Id>@i.Descripcion_Lubricante_E8</option>
+                }
+            </select>
+            <label>Clasificacion</label>
+            <select @bind=nuevoclasificacionlubricante.E7_ClasificacionId class="form-select" aria-label="Default select example">
+                <option selected>Abrir listado de clasificaciones</option>
+                @foreach (var i in ListadoClasificacionLub)
+                {
+                    <option value=@i.Id>@i.Descripcion_Clasificacion_Lube_E7</option>
+                }
+            </select>
+            <button @onclick=Guardar type="button" class="btn btn-secondary">
+                Guardar
+            </button>
+            <br />
+            <label>@RespuestaAlCrear</label>
+
+        </div>
+    </div>
+</div>
+
+@code {
+    E9_Clasificacion_Lubricante nuevoclasificacionlubricante = new E9_Clasificacion_Lubricante();
+    string RespuestaAlCrear = "";
+
+    public static List<E8_Lubricante> Listado = new List<E8_Lubricante>();
+    public static List<E7_Clasificacion> ListadoClasificacionLub = new List<E7_Clasificacion>();
+    public static List<E9_Clasificacion_Lubricante> ListadoClasif = new List<E9_Clasificacion_Lubricante>();
+    Conexion miconexion = new Conexion();
+    async Task Guardar()
+    {
+        RespuestaAlCrear = "Procesando...";
+        var respuesta = await Http.PostAsJsonAsync($"{miconexion.Servidor}/api/E9_Clasificacion_Lubricante/Crear", nuevoclasificacionlubricante);
+        await Actualizar();
+        RespuestaAlCrear = await respuesta.Content.ReadAsStringAsync();
+        
+
+
+    }
+
+    async Task Actualizar()
+    {
+        var listado = await Http.GetFromJsonAsync<List<E8_Lubricante>>($"{miconexion.Servidor}/api/E8_Lubricante/Listado");
+        Listado = listado;
+        var listaclasificacion = await Http.GetFromJsonAsync<List<E7_Clasificacion>>($"{miconexion.Servidor}/api/E7_Clasificacion/Listado");
+        ListadoClasificacionLub = listaclasificacion;
+        var listaclasific = await Http.GetFromJsonAsync<List<E9_Clasificacion_Lubricante>>($"{miconexion.Servidor}/api/E9_Clasificacion_Lubricante/Listado");
+        ListadoClasif = listaclasific;
+
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await Actualizar();
+    }
+    async Task Eliminar(E9_Clasificacion_Lubricante objeto)
+    {
+
+
+        var respuesta = await Http.DeleteAsync($"{miconexion.Servidor}/api/E9_Clasificacion_Lubricante/Eliminar/{objeto.Id}");
+        Console.WriteLine(respuesta);
+        await Actualizar();
+    }
+}

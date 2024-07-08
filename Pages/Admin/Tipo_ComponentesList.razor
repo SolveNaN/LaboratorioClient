@@ -1,0 +1,100 @@
+﻿@page "/tipocomponente"
+@inject HttpClient Http
+@using LaboratorioClient.Models
+<div>
+    <NavMenu />
+</div>
+
+<br />
+<br />
+<div class="section-title">
+    <h2>Tipo Componente</h2>
+</div>
+
+<div class="row" style="display:flex;justify-content:center">
+    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasPaises" aria-controls="offcanvasScrolling">
+        <img src="Tipocomponente.jfif" class="img-fluid" alt="...">
+    </div>
+    <div class="col-4" style="display:flex;align-items:center">
+
+        <div class="card" style="width:500px; max-height:400px ;height:auto"
+                <div class="card-body. overflow-scroll">
+                    <table   class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th>Descripción Componente</th>
+
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var i in Listado)
+                        {
+                                        <tr>
+                                            <td>@i.Descripcion_Componente_E3</td>
+                                                <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                                        </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+                   
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasPaises" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Listado Tipo Componente</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Laboratorio activo con presencia en mas de 18 paises</p>
+        <br />
+        <div>
+            <label>Descripcion</label>
+            <input @bind-value=tipocomponente.Descripcion_Componente_E3 class="form-control" placeholder="Descripcion" />
+            <br />
+            <button @onclick=Guardar type="button" class="btn btn-secondary">
+                Guardar 
+            </button>
+            <br />
+            <label>@RespuestaAlCrear</label>
+
+        </div>
+    </div>
+</div>
+
+@code {
+    Conexion miconexion = new Conexion();
+    E3_Tipo_Componente tipocomponente = new E3_Tipo_Componente();
+    string RespuestaAlCrear = "";
+    public static List<E3_Tipo_Componente> Listado = new List<E3_Tipo_Componente>();
+    async Task Guardar()
+    {
+        RespuestaAlCrear = "Procesando...";
+        var respuesta = await Http.PostAsJsonAsync($"{miconexion.Servidor}/api/E3_Tipo_Componente/Crear", tipocomponente);
+        await Actualizar();
+        RespuestaAlCrear = await respuesta.Content.ReadAsStringAsync();
+        tipocomponente.Descripcion_Componente_E3 = null;
+
+    }
+
+    async Task Actualizar()
+    {
+        var listado = await Http.GetFromJsonAsync<List<E3_Tipo_Componente>>($"{miconexion.Servidor}/api/E3_Tipo_Componente/Listado");
+        Listado = listado;
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await Actualizar();
+    }
+    async Task Eliminar(E3_Tipo_Componente objeto)
+    {
+
+
+        var respuesta = await Http.DeleteAsync($"{miconexion.Servidor}/api/E3_Tipo_Componente/Eliminar/{objeto.Id}");
+        Console.WriteLine(respuesta);
+        await Actualizar();
+    }
+}

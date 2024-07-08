@@ -1,0 +1,118 @@
+﻿@inject HttpClient Http
+@using LaboratorioClient.Models
+@using LaboratorioClient.Pages.Componentes
+@if (VerMuestra)
+{
+    <PopupMuestra Componente_Cliente="ComponenteAsignado" Funcion="EsconderMuestra" />
+}
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Volumen Carter</th>
+            <th>Placa Componente </th>
+            <th>Dias de Almacenamiento</th>
+            <th>Status Registro Componente </th>
+            <th>Modelos</th>
+            <th>Info Adicional</th>
+            <th>Tipo Maquina</th>    
+            <th>Marca</th>
+            <th>Especificacion Componente</th>
+            <th>Empresa</th>
+            <th>Unidad de Medida</th>
+            <th></th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Listado)
+        {
+            <tr style="cursor:pointer" @onmouseover="()=>AsignarComponente(i)" >
+                <td>@i.Volumen_Carter_E5</td>
+                <td>@i.Placa_Componente_E5</td>
+                <td>@i.Dias_Almacenamiento_Componente_Cliente_E5</td>
+                <td>@i.Status_Registro_Componente_E5</td>
+                <td>@i.Modelo_Maquina_E5</td>
+                <td>@i.Informacion_Adicional_Maquina_E5</td>
+                <td>@i.E2_Tipo_Maquina.Descripcion_Maquina_E2</td>
+                <td>@i.E11_Marca.Descripcion_Marca_E11</td>
+                <td>@i.E4_Especificaciones_Componente.Modelo_E4</td>
+                <td>@i.A2_Empresa.Nombre_Empresa_A2</td>
+                <td>@i.E13_Unidad_Medida.Nombre_Unidad_Medida_E13</td>
+                <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@code {
+    E5_Componente_Cliente nuevocomponentecliente = new E5_Componente_Cliente();
+    string RespuestaAlCrear = "";
+    bool VerMuestra = false;
+    public static List<E5_Componente_Cliente> Listado = new List<E5_Componente_Cliente>();
+    public static List<E2_Tipo_Maquina> ListadoE2_Tipo_Maquina = new List<E2_Tipo_Maquina>();
+    public static List<E11_Marca> ListadoE11_Marca = new List<E11_Marca>();
+    public static List<E4_Especificaciones_Componente> ListadoE4_Especificaciones_Componente = new List<E4_Especificaciones_Componente>();
+    public static List<A2_Empresa> ListadoA2_Empresa = new List<A2_Empresa>();
+    public static List<E13_Unidad_Medida> ListadoE13_Unidad_Medida = new List<E13_Unidad_Medida>();
+    Conexion miconexion = new Conexion();
+
+    async Task Guardar()
+    {
+        RespuestaAlCrear = "Procesando...";
+        var respuesta = await Http.PostAsJsonAsync($"{miconexion.Servidor}/api/E5_Componente_Cliente/Crear", nuevocomponentecliente);
+        await Actualizar();
+        RespuestaAlCrear = await respuesta.Content.ReadAsStringAsync();
+        nuevocomponentecliente.Placa_Componente_E5 = null;
+
+
+    }
+
+    async Task Actualizar()
+    {
+        var listadomaquina = await Http.GetFromJsonAsync<List<E2_Tipo_Maquina>>($"{miconexion.Servidor}/api/E2_Tipo_Maquina/Listado");
+        ListadoE2_Tipo_Maquina = listadomaquina;
+
+        var listamarca = await Http.GetFromJsonAsync<List<E11_Marca>>($"{miconexion.Servidor}/api/E11_Marca/Listado");
+        ListadoE11_Marca = listamarca;
+
+        var listaespecificacion = await Http.GetFromJsonAsync<List<E4_Especificaciones_Componente>>($"{miconexion.Servidor}/api/E4_Especificaciones_Componente/Listado");
+        ListadoE4_Especificaciones_Componente = listaespecificacion;
+
+        var listaempresa = await Http.GetFromJsonAsync<List<A2_Empresa>>($"{miconexion.Servidor}/api/A2_Empresa/Listado");
+        ListadoA2_Empresa = listaempresa;
+
+        var listaunidad = await Http.GetFromJsonAsync<List<E13_Unidad_Medida>>($"{miconexion.Servidor}/api/E13_Unidad_Medida/Listado");
+        ListadoE13_Unidad_Medida = listaunidad;
+
+        var listado = await Http.GetFromJsonAsync<List<E5_Componente_Cliente>>($"{miconexion.Servidor}/api/E5_Componente_Cliente/Listado");
+        Listado = listado;
+
+
+
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        await Actualizar();
+    }
+    async Task Eliminar(E5_Componente_Cliente objeto)
+    {
+
+
+        var respuesta = await Http.DeleteAsync($"{miconexion.Servidor}/api/E5_Componente_Cliente/Eliminar/{objeto.Id}");
+        Console.WriteLine(respuesta);
+        await Actualizar();
+    }
+
+    void EsconderMuestra()
+    {
+        VerMuestra = false;
+    }
+    E5_Componente_Cliente ComponenteAsignado = new E5_Componente_Cliente();
+    void AsignarComponente(E5_Componente_Cliente componente)
+    {
+        VerMuestra = true;
+        ComponenteAsignado = componente;
+    }
+}

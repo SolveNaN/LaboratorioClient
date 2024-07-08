@@ -1,0 +1,722 @@
+﻿@page "/estados"
+@inject HttpClient Http
+@using LaboratorioClient.Models
+<div>
+      <NavMenu />
+ </div>
+<h3>Estados de Conexion</h3>
+<br />
+<hr />
+<h3>@conexionServidorEjemplo</h3>
+<div style="display:flex;justify-content:center">
+    <div style="width:500px">
+        <table>
+            <thead>
+                <tr>
+                    <th>Objeto</th>
+                    <th>Servidor</th>
+                    <th>Database</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ejemplo</td>
+                    <td>@conexionServidorEjemplo</td>
+                    <td>@conexionDBEjemplo</td>
+                </tr>
+                <tr>
+                    <td>A5_Pais</td>
+                    <td>@conexionServidorA5_Pais</td>
+                    <td>@conexionDBA5_Pais</td>
+                </tr>
+                <tr>
+                    <td>A6_Ciudad</td>
+                    <td>@conexionServidorA6_Ciudad</td>
+                    <td>@conexionDBA6_Ciudad</td>
+                </tr>
+                <tr>
+                    <td>A1_Tipo_Empresa</td>
+                    <td>@conexionServidorA1_Tipo_Empresa</td>
+                    <td>@conexionDBA1_Tipo_Empresa</td>
+                </tr>
+                <tr>
+                    <td>A3_Tipo_Usuario</td>
+                    <td>@conexionServidorA3_Tipo_Usuario</td>
+                    <td>@conexionDBA3_Tipo_Usuario</td>
+                </tr>
+                <tr>
+                    <td>A2_Empresa</td>
+                    <td>@conexionServidorA2_Empresa</td>
+                    <td>@conexionDBA2_Empresa</td>
+                </tr>
+                <tr>
+                    <td>A7_Sub_Empresa</td>
+                    <td>@conexionServidorA7_Sub_Empresa</td>
+                    <td>@conexionDBA7_Sub_Empresa</td>
+                </tr>
+                <tr>
+                    <td>A4_Usuario</td>
+                    <td>@conexionServidorA4_Usuario</td>
+                    <td>@conexionDBA4_Usuario</td>
+                </tr>
+                
+                <tr>
+                    <td>E16_Courrier</td>
+                    <td>@conexionServidorE16_Courrier</td>
+                    <td>@conexionDBE16_Courrier</td>
+                </tr>
+                <tr>
+                    <td>E12_Tipo_Unidad</td>
+                    <td>@conexionServidorE12_Tipo_Unidad</td>
+                    <td>@conexionDBE12_Tipo_Unidad</td>
+                </tr>
+                <tr>
+                    <td>E13_Unidad_Medida</td>
+                    <td>@conexionServidorE13_Unidad_Medida</td>
+                    <td>@conexionDBE13_Unidad_Medida</td>
+                </tr>
+                <tr>
+                    <td>L1_Prueba</td>
+                    <td>@conexionServidorL1_Prueba</td>
+                    <td>@conexionDBL1_Prueba</td>
+                </tr>
+                <tr>
+                    <td>E10_Combustible</td>
+                    <td>@conexionServidorE10_Combustible</td>
+                    <td>@conexionDBE10_Combustible</td>
+                </tr>
+                <tr>
+                    <td>E6_Entidad_Clasificadora</td>
+                    <td>@conexionServidorE6_Entidad_Clasificadora</td>
+                    <td>@conexionDBE6_Entidad_Clasificadora</td>
+                </tr>
+                <tr>
+                    <td>E7_Clasificacion</td>
+                    <td>@conexionServidorE7_Clasificacion</td>
+                    <td>@conexionDBE7_Clasificacion</td>
+                </tr>
+                <tr>
+                    <td>E8_Lubricante</td>
+                    <td>@conexionServidorE8_Lubricante</td>
+                    <td>@conexionDBE8_Lubricante</td>
+                </tr>
+                <tr>
+                    <td>E9_Clasificacion_Lubricante</td>
+                    <td>@conexionServidorE9_Clasificacion_Lubricante</td>
+                    <td>@conexionDBE9_Clasificacion_Lubricante</td>
+                </tr>
+                <tr>
+                    <td>E1_Tipo_Aplicacion</td>
+                    <td>@conexionServidorE1_Tipo_Aplicacion</td>
+                    <td>@conexionDBE1_Tipo_Aplicacion</td>
+                </tr>
+                <tr>
+                    <td>E3_Tipo_Componente</td>
+                    <td>@conexionServidorE3_Tipo_Componente</td>
+                    <td>@conexionDBE3_Tipo_Componente</td>
+                </tr>
+                <tr>
+                    <td>E11_Marca</td>
+                    <td>@conexionServidorE11_Marca</td>
+                    <td>@conexionDBE11_Marca</td>
+                </tr>
+                <tr>
+                    <td>E4_Especificaciones_Componente</td>
+                    <td>@conexionServidorE4_Especificaciones_Componente</td>
+                    <td>@conexionDBE4_Especificaciones_Componente</td>
+                </tr>
+                <tr>
+                    <td>E2_Tipo_Maquina</td>
+                    <td>@conexionServidorE2_Tipo_Maquina</td>
+                    <td>@conexionDBE2_Tipo_Maquina</td>
+                </tr>
+                <tr>
+                    <td>E5_Componente_Cliente</td>
+                    <td>@conexionServidorE5_Componente_Cliente</td>
+                    <td>@conexionDBE5_Componente_Cliente</td>
+                </tr>
+                <tr>
+                    <td>E14_Muestra</td>
+                    <td>@conexionServidorE14_Muestra</td>
+                    <td>@conexionDBE14_Muestra</td>
+                </tr>
+                <tr>
+                    <td>E15_Resultado</td>
+                    <td>@conexionServidorE15_Resultado</td>
+                    <td>@conexionDBE15_Resultado</td>
+                </tr>
+                
+            </tbody>   
+            <!-- Agrega más filas según necesites -->
+        </table>
+    </div>
+</div>
+
+@code {
+    //Database
+    string conexionDBEjemplo = "En espera...";
+    string conexionDBA5_Pais = "En espera...";
+    string conexionDBA6_Ciudad = "En espera...";
+    string conexionDBA1_Tipo_Empresa = "En espera...";
+    string conexionDBA3_Tipo_Usuario = "En espera...";
+    string conexionDBA2_Empresa = "En espera...";
+    string conexionDBA7_Sub_Empresa = "En espera...";
+    string conexionDBA4_Usuario = "En espera...";
+    string conexionDBE16_Courrier = "En espera...";
+    string conexionDBE12_Tipo_Unidad = "En espera...";
+    string conexionDBE13_Unidad_Medida = "En espera...";
+    string conexionDBL1_Prueba = "En espera...";
+    string conexionDBE10_Combustible = "En espera...";
+    string conexionDBE6_Entidad_Clasificadora = "En espera...";
+    string conexionDBE7_Clasificacion = "En espera...";
+    string conexionDBE8_Lubricante = "En espera...";
+    string conexionDBE9_Clasificacion_Lubricante = "En espera...";
+    string conexionDBE1_Tipo_Aplicacion = "En espera...";
+    string conexionDBE3_Tipo_Componente = "En espera...";
+    string conexionDBE11_Marca = "En espera...";
+    string conexionDBE4_Especificaciones_Componente = "En espera...";
+    string conexionDBE2_Tipo_Maquina = "En espera...";
+    string conexionDBE5_Componente_Cliente = "En espera...";
+    string conexionDBE14_Muestra = "En espera...";
+    string conexionDBE15_Resultado = "En espera...";
+
+    //Server
+    string conexionServidorEjemplo = "En espera...";
+    string conexionServidorA5_Pais = "En espera...";
+    string conexionServidorA6_Ciudad = "En espera...";
+    string conexionServidorA1_Tipo_Empresa = "En espera...";
+    string conexionServidorA3_Tipo_Usuario = "En espera...";
+    string conexionServidorA2_Empresa = "En espera...";
+    string conexionServidorA7_Sub_Empresa = "En espera...";
+    string conexionServidorA4_Usuario = "En espera...";
+    string conexionServidorE16_Courrier = "En espera...";
+    string conexionServidorE12_Tipo_Unidad = "En espera...";
+    string conexionServidorE13_Unidad_Medida = "En espera...";
+    string conexionServidorL1_Prueba = "En espera...";
+    string conexionServidorE10_Combustible = "En espera...";
+    string conexionServidorE6_Entidad_Clasificadora = "En espera...";
+    string conexionServidorE7_Clasificacion = "En espera...";
+    string conexionServidorE8_Lubricante = "En espera...";
+    string conexionServidorE9_Clasificacion_Lubricante = "En espera...";
+    string conexionServidorE1_Tipo_Aplicacion = "En espera...";
+    string conexionServidorE3_Tipo_Componente = "En espera...";
+    string conexionServidorE11_Marca = "En espera...";
+    string conexionServidorE4_Especificaciones_Componente = "En espera...";
+    string conexionServidorE2_Tipo_Maquina = "En espera...";
+    string conexionServidorE5_Componente_Cliente = "En espera...";
+    string conexionServidorE14_Muestra = "En espera...";
+    string conexionServidorE15_Resultado = "En espera...";
+    Conexion miconexion = new Conexion();
+    async Task ProbarConexion()
+    {
+        //var respuesta = await Http.GetStringAsync("api/A4_Usuario/ConexionServidor");
+        //conexionServidor = respuesta;
+        try
+        {
+            conexionServidorEjemplo = await Http.GetStringAsync($"{miconexion.Servidor}/api/Ejemplo/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorEjemplo = "Error de ruta o conexion al controlador";
+        }
+        try
+        {            
+            conexionDBEjemplo = await Http.GetStringAsync($"{miconexion.Servidor}/api/Ejemplo/ConexionDB");
+        }
+        catch
+        {
+            conexionDBEjemplo = "Error de ruta";
+        }
+        //INICIO Estados con A5_Pais
+        try
+        {
+            conexionServidorA5_Pais = await Http.GetStringAsync($"{miconexion.Servidor}/api/A5_Pais/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorA5_Pais = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBA5_Pais = await Http.GetStringAsync($"{miconexion.Servidor}/api/A5_Pais/ConexionDB");
+        }
+        catch
+        {
+            conexionDBA5_Pais = "Error de ruta";
+        }
+        //FINAL Estados con A5_Pais
+        //INICIO Estados con A6_Ciudad
+        try
+        {
+            conexionServidorA6_Ciudad = await Http.GetStringAsync($"{miconexion.Servidor}/api/A6_Ciudad/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorA5_Pais = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBA6_Ciudad = await Http.GetStringAsync($"{miconexion.Servidor}/api/A6_Ciudad/ConexionDB");
+        }
+        catch
+        {
+            conexionDBA6_Ciudad = "Error de ruta";
+        }
+        //FINAL Estados con A6_Ciudad
+
+        //INICIO Estados con A1_Tipo_Empresa
+        try
+        {
+            conexionServidorA1_Tipo_Empresa = await Http.GetStringAsync($"{miconexion.Servidor}/api/A1_Tipo_Empresa/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorA1_Tipo_Empresa = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBA1_Tipo_Empresa = await Http.GetStringAsync($"{miconexion.Servidor}/api/A1_Tipo_Empresa/ConexionDB");
+        }
+        catch
+        {
+            conexionDBA1_Tipo_Empresa = "Error de ruta";
+        }
+        //FINAL Estados con A1_Tipo_Empresa
+
+        //INICIO Estados con A3_Tipo_Usuario
+        try
+        {
+            conexionServidorA3_Tipo_Usuario = await Http.GetStringAsync($"{miconexion.Servidor}/api/A3_Tipo_Usuario/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorA3_Tipo_Usuario = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBA3_Tipo_Usuario = await Http.GetStringAsync($"{miconexion.Servidor}/api/A3_Tipo_Usuario/ConexionDB");
+        }
+        catch
+        {
+            conexionDBA3_Tipo_Usuario = "Error de ruta";
+        }
+        //FINAL Estados con A3_Tipo_Usuario
+
+        //INICIO Estados con A2_Empresa
+        try
+        {
+            conexionServidorA2_Empresa = await Http.GetStringAsync($"{miconexion.Servidor}/api/A2_Empresa/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorA2_Empresa = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBA2_Empresa = await Http.GetStringAsync($"{miconexion.Servidor}/api/A2_Empresa/ConexionDB");
+        }
+        catch
+        {
+            conexionDBA2_Empresa = "Error de ruta";
+        }
+        //FINAL Estados con A2_Empresa
+
+        //INICIO Estados con A7_Sub_Empresa
+        try
+        {
+            conexionServidorA7_Sub_Empresa = await Http.GetStringAsync($"{miconexion.Servidor}/api/A7_Sub_Empresa/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorA7_Sub_Empresa = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBA7_Sub_Empresa = await Http.GetStringAsync($"{miconexion.Servidor}/api/A7_Sub_Empresa/ConexionDB");
+        }
+        catch
+        {
+            conexionDBA7_Sub_Empresa = "Error de ruta";
+        }
+        //FINAL Estados con A7_Sub_Empresa
+
+        //INICIO Estados con A4_Usuario
+        try
+        {
+            conexionServidorA4_Usuario = await Http.GetStringAsync($"{miconexion.Servidor}/api/A4_Usuario/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorA4_Usuario = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBA4_Usuario = await Http.GetStringAsync($"{miconexion.Servidor}/api/A4_Usuario/ConexionDB");
+        }
+        catch
+        {
+            conexionDBA4_Usuario = "Error de ruta";
+        }
+        //FINAL Estados con A4_Usuario
+
+        //INICIO Estados con E16_Courrier
+        try
+        {
+            conexionServidorE16_Courrier = await Http.GetStringAsync($"{miconexion.Servidor}/api/E16_Courrier/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE16_Courrier = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE16_Courrier = await Http.GetStringAsync($"{miconexion.Servidor}/api/E16_Courrier/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE16_Courrier = "Error de ruta";
+        }
+        //FINAL Estados con E16_Courrier
+
+        //INICIO Estados con E12_Tipo_Unidad
+        try
+        {
+            conexionServidorE12_Tipo_Unidad = await Http.GetStringAsync($"{miconexion.Servidor}/api/E12_Tipo_Unidad/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE12_Tipo_Unidad = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE12_Tipo_Unidad = await Http.GetStringAsync($"{miconexion.Servidor}/api/E16_Courrier/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE12_Tipo_Unidad = "Error de ruta";
+        }
+        //FINAL Estados con E12_Tipo_Unidad
+
+        //INICIO Estados con E13_Unidad_Medida
+        try
+        {
+            conexionServidorE13_Unidad_Medida = await Http.GetStringAsync($"{miconexion.Servidor}/api/E13_Unidad_Medida/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE13_Unidad_Medida = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE13_Unidad_Medida = await Http.GetStringAsync($"{miconexion.Servidor}/api/E13_Unidad_Medida/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE13_Unidad_Medida = "Error de ruta";
+        }
+        //FINAL Estados con E13_Unidad_Medida
+
+        //INICIO Estados con L1_Prueba
+        try
+        {
+            conexionServidorL1_Prueba = await Http.GetStringAsync($"{miconexion.Servidor}/api/L1_Prueba/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorL1_Prueba = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBL1_Prueba = await Http.GetStringAsync($"{miconexion.Servidor}/api/L1_Prueba/ConexionDB");
+        }
+        catch
+        {
+            conexionDBL1_Prueba = "Error de ruta";
+        }
+        //FINAL Estados con L1_Prueba
+
+        //INICIO Estados con E10_Combustible
+        try
+        {
+            conexionServidorE10_Combustible = await Http.GetStringAsync($"{miconexion.Servidor}/api/E10_Combustible/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE10_Combustible = "Error de ruta o conexion al controlador";
+    }
+        try
+        {
+            conexionDBE10_Combustible = await Http.GetStringAsync($"{miconexion.Servidor}/api/E10_Combustible/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE10_Combustible = "Error de ruta";
+        }
+        //FINAL Estados con E10_Combustible
+
+        //INICIO Estados con E6_Entidad_Clasificadora
+        try
+        {
+            conexionServidorE6_Entidad_Clasificadora = await Http.GetStringAsync($"{miconexion.Servidor}/api/E6_Entidad_Clasificadora/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE6_Entidad_Clasificadora = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE6_Entidad_Clasificadora = await Http.GetStringAsync($"{miconexion.Servidor}/api/E6_Entidad_Clasificadora/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE6_Entidad_Clasificadora = "Error de ruta";
+        }
+        //FINAL Estados con E6_Entidad_Clasificadora
+
+        //INICIO Estados con E7_Clasificacion
+        try
+        {
+            conexionServidorE7_Clasificacion = await Http.GetStringAsync($"{miconexion.Servidor}/api/E7_Clasificacion/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE7_Clasificacion = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE7_Clasificacion = await Http.GetStringAsync($"{miconexion.Servidor}/api/E7_Clasificacion/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE7_Clasificacion = "Error de ruta";
+        }
+        //FINAL Estados con E7_Clasificacion
+
+        //INICIO Estados con E8_Lubricante
+        try
+        {
+            conexionServidorE8_Lubricante = await Http.GetStringAsync($"{miconexion.Servidor}/api/E8_Lubricante/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE8_Lubricante = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE8_Lubricante = await Http.GetStringAsync($"{miconexion.Servidor}/api/E8_Lubricante/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE8_Lubricante = "Error de ruta";
+        }
+        //FINAL Estados con E8_Lubricante
+
+        //INICIO Estados con E9_Clasificacion_Lubricante
+        try
+        {
+            conexionServidorE9_Clasificacion_Lubricante = await Http.GetStringAsync($"{miconexion.Servidor}/api/E9_Clasificacion_Lubricante/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE9_Clasificacion_Lubricante = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE9_Clasificacion_Lubricante = await Http.GetStringAsync($"{miconexion.Servidor}/api/E9_Clasificacion_Lubricante/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE9_Clasificacion_Lubricante = "Error de ruta";
+        }
+        //FINAL Estados con E9_Clasificacion_Lubricante
+
+        //INICIO Estados con E1_Tipo_Aplicacion
+        try
+        {
+            conexionServidorE1_Tipo_Aplicacion = await Http.GetStringAsync($"{miconexion.Servidor}/api/E1_Tipo_Aplicacion/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE1_Tipo_Aplicacion = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE1_Tipo_Aplicacion = await Http.GetStringAsync($"{miconexion.Servidor}/api/E1_Tipo_Aplicacion/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE1_Tipo_Aplicacion = "Error de ruta";
+        }
+        //FINAL Estados con E1_Tipo_Aplicacion
+
+        //INICIO Estados con E3_Tipo_Componente
+        try
+        {
+            conexionServidorE3_Tipo_Componente = await Http.GetStringAsync($"{miconexion.Servidor}/api/E3_Tipo_Componente/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE3_Tipo_Componente = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE3_Tipo_Componente = await Http.GetStringAsync($"{miconexion.Servidor}/api/E3_Tipo_Componente/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE3_Tipo_Componente = "Error de ruta";
+        }
+        //FINAL Estados con E3_Tipo_Componente
+
+        //INICIO Estados con E11_Marca
+        try
+        {
+            conexionServidorE11_Marca = await Http.GetStringAsync($"{miconexion.Servidor}/api/E11_Marca/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE11_Marca = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE11_Marca = await Http.GetStringAsync($"{miconexion.Servidor}/api/E11_Marca/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE11_Marca = "Error de ruta";
+        }
+        //FINAL Estados con E11_Marca
+
+        //INICIO Estados con E4_Especificaciones_Componente
+        try
+        {
+            conexionServidorE4_Especificaciones_Componente = await Http.GetStringAsync($"{miconexion.Servidor}/api/E4_Especificaciones_Componente/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE4_Especificaciones_Componente = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE4_Especificaciones_Componente = await Http.GetStringAsync($"{miconexion.Servidor}/api/E4_Especificaciones_Componente/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE4_Especificaciones_Componente = "Error de ruta";
+        }
+        //FINAL Estados con E4_Especificaciones_Componente
+
+        //INICIO Estados con E2_Tipo_Maquina
+        try
+        {
+            conexionServidorE2_Tipo_Maquina = await Http.GetStringAsync($"{miconexion.Servidor}/api/E2_Tipo_Maquina/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE2_Tipo_Maquina = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE2_Tipo_Maquina = await Http.GetStringAsync($"{miconexion.Servidor}/api/E2_Tipo_Maquina/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE2_Tipo_Maquina = "Error de ruta";
+        }
+        //FINAL Estados con E2_Tipo_Maquina
+
+        //INICIO Estados con E5_Componente_Cliente
+        try
+        {
+            conexionServidorE5_Componente_Cliente = await Http.GetStringAsync($"{miconexion.Servidor}/api/E5_Componente_Cliente/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE5_Componente_Cliente = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE5_Componente_Cliente = await Http.GetStringAsync($"{miconexion.Servidor}/api/E5_Componente_Cliente/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE5_Componente_Cliente = "Error de ruta";
+        }
+        //FINAL Estados con E5_Componente_Cliente
+
+        //INICIO Estados con E14_Muestra
+        try
+        {
+            conexionServidorE14_Muestra = await Http.GetStringAsync($"{miconexion.Servidor}/api/E14_Muestra/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE14_Muestra = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE14_Muestra = await Http.GetStringAsync($"{miconexion.Servidor}/api/E14_Muestra/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE14_Muestra = "Error de ruta";
+        }
+        //FINAL Estados con E14_Muestra
+
+        //INICIO Estados con E15_Resultado
+        try
+        {
+            conexionServidorE15_Resultado = await Http.GetStringAsync($"{miconexion.Servidor}/api/E15_Resultado/ConexionServidor");
+
+        }
+        catch
+        {
+            conexionServidorE15_Resultado = "Error de ruta o conexion al controlador";
+        }
+        try
+        {
+            conexionDBE15_Resultado = await Http.GetStringAsync($"{miconexion.Servidor}/api/E15_Resultado/ConexionDB");
+        }
+        catch
+        {
+            conexionDBE15_Resultado = "Error de ruta";
+        }
+        //FINAL Estados con E15_Resultado
+
+        //INICIO Estados con
+        //FINAL Estados con
+
+        //INICIO Estados con
+        //FINAL Estados con
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ProbarConexion();
+        
+    }
+}

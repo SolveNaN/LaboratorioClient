@@ -1,0 +1,131 @@
+﻿
+@using Microsoft.AspNetCore.Components.Authorization
+@inject IJSRuntime JS
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+<div style="display:flex;justify-content:space-around">
+	<div>
+		<label type="button" data-bs-toggle="offcanvas" data-bs-target="#OpcionesCanvas" aria-controls="offcanvasScrolling">Opciones</label>
+	</div>
+	<div>
+		<AuthorizeView>
+			<Authorized>
+				<label>@context.User.Identity?.Name!</label>
+			</Authorized>
+		</AuthorizeView>
+	</div>
+	<div>
+		<label style="cursor:pointer" @onclick=Salir>Cerrar Sesion</label>
+	</div>
+</div>
+
+
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="OpcionesCanvas" aria-labelledby="offcanvasScrollingLabel">
+	<div class="offcanvas-header">
+		<h5 class="offcanvas-title" id="offcanvasScrollingLabel">LABORATORIO ACTIVO</h5>
+		<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<ul>
+			<li>
+				<a href="estados" style="cursor:pointer">Estados de Conexion</a>
+			</li>
+			<li>
+				<a href="paislist" style="cursor:pointer">Paises</a>
+			</li>
+			<li>
+				<a href="ciudadlist" style="cursor:pointer">Ciudades</a>
+			</li>
+			<li>
+				<a href="tipoempresalist" style="cursor:pointer">Tipo Empresa</a>
+			</li>
+			<li>
+				<a href="tipousuario" style="cursor:pointer">Tipo Usuario</a>
+			</li>
+			<li>
+				<a href="empresalist" style="cursor:pointer">Empesas</a>
+			</li>
+			<li>
+				<a href="subempresalist" style="cursor:pointer">Sub Empesas</a>
+			</li>
+			<li>
+				<a href="usuariolist" style="cursor:pointer">Usuarios</a>
+			</li>
+			<li>
+				<a href="courierslist" style="cursor:pointer">Couriers</a>
+			</li>
+			<li>
+				<a href="tipounidad" style="cursor:pointer">Tipo Unidad</a>
+			</li>
+			<li>
+				<a href="unidadmedida" style="cursor:pointer">Unidad Medida</a>
+			</li>
+			<li>
+				<a href="prueba" style="cursor:pointer">Prueba</a>
+			</li>
+			<li>
+				<a href="combustible" style="cursor:pointer">Combustibles</a>
+			</li>
+			<li>
+				<a href="entidadclasificadora" style="cursor:pointer">Entidad Clasificadora</a>
+			</li>
+			<li>
+				<a href="clasificacion" style="cursor:pointer">Clasificación</a>
+			</li>
+			<li>
+				<a href="marcas" style="cursor:pointer">Marcas</a>
+			</li>
+			<li>
+				<a href="lubricantes" style="cursor:pointer">Lubricantes</a>
+			</li>
+			<li>
+				<a href="clasificacionlubricantes" style="cursor:pointer">Clasificacion lubricantes</a>
+			</li>
+			<li>
+				<a href="tipoaplicacion" style="cursor:pointer">Tipo Aplicacion</a>
+			</li>
+			<li>
+				<a href="tipocomponente" style="cursor:pointer">Tipo Componente</a>
+			</li>
+			<li>
+				<a href="especificacionescomponente" style="cursor:pointer">Especificaciones componente</a>
+			</li>
+			<li>
+				<a href="tipomaquina" style="cursor:pointer">Tipo Maquina</a>
+			</li>
+			<li>
+				<a href="componentecliente" style="cursor:pointer">Componente Cliente</a>
+			</li>
+			<li>
+				<a href="muestralist" style="cursor:pointer">Muestra</a>
+			</li>
+			<li>
+				<a href="resultadolist" style="cursor:pointer">Resultado</a>
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+@code {
+	async Task Salir()
+	{
+		await JS.InvokeVoidAsync("localStorage.removeItem", "Token");
+		await AuthenticationStateProvider.GetAuthenticationStateAsync();
+		Navigation.NavigateTo("/");
+	}
+}
+<style>
+	label{
+		font-family: Monospace;
+		font-size:12px;
+	}
+
+	#OpcionesCanvas{
+		background-color:gray;
+	}
+	p{
+		font-family: Monospace;
+	}
+</style>

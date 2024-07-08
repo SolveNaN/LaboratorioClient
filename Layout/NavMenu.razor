@@ -1,0 +1,92 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@inject IJSRuntime JS
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+<!-- ======= Header ======= -->
+<header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <div id="logo">
+            <h1><a href="/"><span>Lab</span>Active</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto" href="#about-us">About</a></li>
+                <li><a class="nav-link scrollto" href="#features">Features</a></li>
+                <li><a class="nav-link scrollto" href="#screenshots">Screenshots</a></li>
+                <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+                <AuthorizeView>
+                    <Authorized>
+                        <li class="dropdown">
+                            <a href="#"><span>Administrador</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="#">Registro</a></li>
+                                <li class="dropdown">
+                                    <a href="#"><span>Accesos</span> <i class="bi bi-chevron-right"></i></a>
+                                    <ul>
+                                        <li><a href="tipoempresalist">A1_Tipo_Empresa</a></li>
+                                        <li><a href="empresalist">A2_Empresa</a></li>
+                                        <li><a href="tipousuario">A3_Tipo_Usuario</a></li>
+                                        <li><a href="usuariolist">A4_Usuario</a></li>
+                                        <li><a href="paislist">A5_Pais</a></li>
+                                        <li><a href="ciudadlist">A6_Ciudad</a></li>
+                                        <li><a href="subempresalist">A7_Sub_Empresa</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEquipos" aria-controls="offcanvasScrolling">Equipos</a></li>
+                                <li><a href="estados">Estados</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-link scrollto active" @onclick=Salir style="cursor:pointer">Salir</a></li>
+                    </Authorized>
+                </AuthorizeView>
+                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+<!-- Button trigger modal -->
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasEquipos" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Equipos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul style="overflow:auto">
+            <li><a href="tipoaplicacion">E1_Tipo_Aplicacion</a></li>
+            <li><a href="tipomaquina">E2_Tipo_Maquina</a></li>
+            <li><a href="tipocomponente">E3_Tipo_Componente</a></li>
+            <li><a href="especificacionescomponente">E4_Especificaciones_Componente</a></li>
+            <li><a href="componentecliente">E5_Componente_Cliente</a></li>
+            <li><a href="entidadclasificadora">E6_Entidad_Clasificadora</a></li>
+            <li><a href="clasificacion">E7_Clasificaciones</a></li>
+            <li><a href="lubricantes">E8_Lubricante</a></li>
+            <li><a href="clasificacionlubricantes">E9_Clasificacion_Lubricante</a></li>
+            <li><a href="combustible">E10_Combustible</a></li>
+            <li><a href="marcas">E11_Marca</a></li>
+            <li><a href="tipounidad">E12_Tipo_Unidad</a></li>
+            <li><a href="unidadmedida">E13_Unidad_Medida</a></li>
+            <li><a href="muestralist">E14_Muestra</a></li>
+            <li><a href="resultadolist">E15_Resultado</a></li>
+            <li><a href="courierslist">E16_Courrier</a></li>
+            <li><a href="prueba">L1_Prueba</a></li>
+            <li><a href="#">Ejemplo5</a></li>
+
+        </ul>
+    </div>
+</div>
+@code {
+    async Task Salir()
+    {
+        await JS.InvokeVoidAsync("localStorage.removeItem", "Token");
+        await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        Navigation.NavigateTo("/");
+    }
+}
