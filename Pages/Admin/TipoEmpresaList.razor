@@ -2,38 +2,47 @@
 @inject HttpClient Http
 @using LaboratorioClient.Models
 
-<div class="section-title">
-    <h2>Tipo Empresa</h2>
-</div>
-<div class="row" style="display:flex;justify-content:center">
-    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTipoEmpresa" aria-controls="offcanvasScrolling">
-        <img src="tipoempresa.png" class="img-fluid" alt="...">
-    </div>
-    <div class="col-4" style="display:flex;align-items:center">
-
-        <table class="table table-striped table-hover">
-            <thead>
-                <tr>
-                    <th> Descripción Empresa</th>
-                    <th> </th>
-                </tr>
-            </thead>
-            <tbody>
-
-                @foreach (var i in ListadoTipoEmpresa)
-                {
+<div id="contenedor">
+    <section id="foto">
+        <div class="section-title;">
+            <h2>Tipo Empresa</h2>
+        </div>
+        <br />
+        <div class="col-8" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTipoEmpresa" aria-controls="offcanvasScrolling">
+            <img  src="tipoempresaa.png" class="img-fluid" alt="...">
+        </div>
+    </section>
+    <section id="contenido">
+        <div class="card" style="width:auto;max-width:700px; max-height:450px ;height:auto"
+                <div class="card-body. overflow-scroll">
+                    <table class="table table-striped table-hover">
+                <thead>
                     <tr>
-                        <td>@i.Descripcion_Tipo_Empresa_A1</td>
-                        <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                        <th> Descripción Empresa</th>
+                        <th> </th>
                     </tr>
-                }
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+
+                        @foreach (var i in ListadoTipoEmpresa)
+                        {
+                                <tr>
+                                    <td>@i.Descripcion_Tipo_Empresa_A1</td>
+                                    <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                                </tr>
+                        }
+                </tbody>
+            </table>
+                </div>
+            </div>
+
+
+    </section>
 
 
 
 
-    </div>
+
 </div>
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasTipoEmpresa" aria-labelledby="offcanvasScrollingLabel">
@@ -58,6 +67,29 @@
     </div>
 </div>
 
+<style>
+    #contenedor {
+        width: auto;
+        max-width: 1000px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contenido {
+        width: 700px;
+        height: 450px;
+        float: right;
+    }
+
+    #foto {
+        width: 280px;
+        height: 500px;
+        float: left
+    }
+</style>
 
 @code {
     Conexion miconexion = new Conexion();

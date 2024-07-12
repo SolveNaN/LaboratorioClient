@@ -4,18 +4,20 @@
 <div>
       <NavMenu />
  </div>
-<br />
-<br />
-<div class="section-title">
-    <h2>Empresa</h2>
-</div>
 
-<div class="row" style="display:flex;justify-content:center">
-    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEmpresa" aria-controls="offcanvasScrolling">
-        <img src="industria.png" class="img-fluid" alt="...">
-    </div>
-    <div class="col-6" style="display:flex;align-items:center">
-        <div class="card" style="width:auto;max-width:650px; max-height:400px ;height:auto"
+<div id="contenedor">
+    <section id="foto">
+        <div class="section-title;">
+            <h2>Empresa</h2>
+        </div>
+        <br />
+        <div class="col-12" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEmpresa" aria-controls="offcanvasScrolling">
+            <img  src="industriaa.png" class="img-fluid" alt="...">
+        </div>
+    </section>
+    <section id="contenido">
+
+        <div class="card" style="width:auto;max-width:700px; max-height:450px ;height:auto"
                 <div class="card-body. overflow-scroll">
                     <table  class="table table-striped table-hover">
                         <thead>
@@ -27,32 +29,34 @@
                                 <th> Dirección</th>
                                 <th> Teléfono</th>
                                 <th> Fecha Creacion</th>
-                                
+
                             </tr>
                         </thead>
                         <tbody>
                         @foreach (var i in ListadoEmpresas)
                         {
-                                    <tr>
-                                            <td>@i.A1_Tipo_Empresa.Descripcion_Tipo_Empresa_A1</td>
-                                            <td>@i.Nombre_Empresa_A2</td>
-                                            <td>@i.ID_Empresa_Superior_A2</td>
-                                            <td>@i.A6_Ciudad.Nombre_Ciudad_A6</td>
-                                            <td>@i.Direccion_A2</td>
-                                            <td>@i.Telefono_A2</td>
-                                            <td> <button type="button"  class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
-                                    </tr>
+                                            <tr>
+                                                    <td>@i.A1_Tipo_Empresa.Descripcion_Tipo_Empresa_A1</td>
+                                                    <td>@i.Nombre_Empresa_A2</td>
+                                                    <td>@i.ID_Empresa_Superior_A2</td>
+                                                    <td>@i.A6_Ciudad.Nombre_Ciudad_A6</td>
+                                                    <td>@i.Direccion_A2</td>
+                                                    <td>@i.Telefono_A2</td>
+                                                    <td> <button type="button"  class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                                            </tr>
                         }
                         </tbody>
                     </table>
                 </div>
             </div>
-        
+
+    </section>
 
 
-    </div>
+
+
+
 </div>
-
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasEmpresa" aria-labelledby="offcanvasScrollingLabel">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Listado Empresa</h5>
@@ -62,7 +66,7 @@
         <p>Laboratorio activo con presencia en mas de 18 paises</p>
         <br />
         <div>
-            
+
             <label>Tipo Empresa</label>
             <select @bind=nuevaempresa.A1_Tipo_EmpresaId class="form-select" aria-label="Default select example">
                 <option selected>Abrir lista de tipos de empresa</option>
@@ -99,10 +103,34 @@
 </div>
 
 
+<style>
+    #contenedor {
+        width: auto;
+        max-width: 1000px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contenido {
+        width: 700px;
+        height: 450px;
+        float: right;
+    }
+
+    #foto {
+        width: 280px;
+        height: 500px;
+        float: left
+    }
+</style>
+
 @code {
     A2_Empresa nuevaempresa = new A2_Empresa();
     string RespuestaAlCrear = "";
-    public static List<A2_Empresa> ListadoEmpresas= new List<A2_Empresa>();
+    public static List<A2_Empresa> ListadoEmpresas = new List<A2_Empresa>();
     public static List<A6_Ciudad> ListadoCiudades = new List<A6_Ciudad>();
     public static List<A1_Tipo_Empresa> ListadoTipoEmpresa = new List<A1_Tipo_Empresa>();
     Conexion miconexion = new Conexion();
@@ -118,7 +146,7 @@
 
     async Task Actualizar()
     {
-        
+
         var listadotipoempresa = await Http.GetFromJsonAsync<List<A1_Tipo_Empresa>>($"{miconexion.Servidor}/api/A1_Tipo_Empresa/Listado");
         ListadoTipoEmpresa = listadotipoempresa;
         var listaempresas = await Http.GetFromJsonAsync<List<A2_Empresa>>($"{miconexion.Servidor}/api/A2_Empresa/Listado");
@@ -133,7 +161,7 @@
     async Task Eliminar(A2_Empresa objeto)
     {
         var respuesta = await Http.DeleteAsync($"{miconexion.Servidor}/api/A2_Empresa/Eliminar/{objeto.Id}");
-      
+
         Console.WriteLine(respuesta);
         await Actualizar();
     }

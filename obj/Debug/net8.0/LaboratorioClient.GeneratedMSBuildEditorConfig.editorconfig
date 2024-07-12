@@ -13,183 +13,187 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = LaboratorioClient
 build_property.RootNamespace = LaboratorioClient
-build_property.ProjectDir = C:\Users\Dagoberto\source\repos\LaboratorioClient\
+build_property.ProjectDir = C:\LaboratorioClient\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Dagoberto\source\repos\LaboratorioClient
+build_property.MSBuildProjectDirectory = C:\LaboratorioClient
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/App.razor]
+[C:/LaboratorioClient/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/A3_Tipo_UsuarioList.razor]
+[C:/LaboratorioClient/Pages/Admin/A3_Tipo_UsuarioList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQTNfVGlwb19Vc3VhcmlvTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/A4_UsuarioList.razor]
+[C:/LaboratorioClient/Pages/Admin/A4_UsuarioList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQTRfVXN1YXJpb0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/A7_Sub_EmpresaList.razor]
+[C:/LaboratorioClient/Pages/Admin/A7_Sub_EmpresaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQTdfU3ViX0VtcHJlc2FMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Bienvenido.razor]
+[C:/LaboratorioClient/Pages/Admin/Bienvenido.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQmllbnZlbmlkby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/CiudadList.razor]
+[C:/LaboratorioClient/Pages/Admin/CiudadList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2l1ZGFkTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Clasificacion_LubricantesList.razor]
+[C:/LaboratorioClient/Pages/Admin/Clasificacion_LubricantesList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ2xhc2lmaWNhY2lvbl9MdWJyaWNhbnRlc0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Componente_Cliente.razor]
+[C:/LaboratorioClient/Pages/Admin/Componente_Cliente.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQ29tcG9uZW50ZV9DbGllbnRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/E10_CombustibleList.razor]
+[C:/LaboratorioClient/Pages/Admin/E10_CombustibleList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRTEwX0NvbWJ1c3RpYmxlTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/E12_Tipo_UnidadList.razor]
+[C:/LaboratorioClient/Pages/Admin/E12_Tipo_UnidadList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRTEyX1RpcG9fVW5pZGFkTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/E16_CourriersList.razor]
+[C:/LaboratorioClient/Pages/Admin/E16_CourriersList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRTE2X0NvdXJyaWVyc0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/E7_ClasificacionList.razor]
+[C:/LaboratorioClient/Pages/Admin/E7_ClasificacionList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRTdfQ2xhc2lmaWNhY2lvbkxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/EmpresaList.razor]
+[C:/LaboratorioClient/Pages/Admin/EmpresaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRW1wcmVzYUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Entidad_ClasificadorList.razor]
+[C:/LaboratorioClient/Pages/Admin/Entidad_ClasificadorList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRW50aWRhZF9DbGFzaWZpY2Fkb3JMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Especificaciones_ComponenteList.razor]
+[C:/LaboratorioClient/Pages/Admin/Especificaciones_ComponenteList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRXNwZWNpZmljYWNpb25lc19Db21wb25lbnRlTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Estados.razor]
+[C:/LaboratorioClient/Pages/Admin/Estados.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRXN0YWRvcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Hero.razor]
+[C:/LaboratorioClient/Pages/Admin/Hero.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSGVyby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/L1_PruebaList.razor]
+[C:/LaboratorioClient/Pages/Admin/L1_PruebaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTDFfUHJ1ZWJhTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/LogoutButton.razor]
+[C:/LaboratorioClient/Pages/Admin/LogoutButton.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9nb3V0QnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/LubricantesList.razor]
+[C:/LaboratorioClient/Pages/Admin/LubricantesList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTHVicmljYW50ZXNMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/MainLaboratorio.razor]
+[C:/LaboratorioClient/Pages/Admin/MainLaboratorio.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFpbkxhYm9yYXRvcmlvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/MarcasList.razor]
+[C:/LaboratorioClient/Pages/Admin/MarcasList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFyY2FzTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/MuestraList.razor]
+[C:/LaboratorioClient/Pages/Admin/MuestraList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTXVlc3RyYUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/PaisList.razor]
+[C:/LaboratorioClient/Pages/Admin/PaisList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUGFpc0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Registro.razor]
+[C:/LaboratorioClient/Pages/Admin/PlantillaDiseño.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUGxhbnRpbGxhRGlzZcOxby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/LaboratorioClient/Pages/Admin/Registro.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVnaXN0cm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/ResultadoList.razor]
+[C:/LaboratorioClient/Pages/Admin/ResultadoList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVzdWx0YWRvTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Servicios.razor]
+[C:/LaboratorioClient/Pages/Admin/Servicios.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2VydmljaW9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/TipoEmpresaList.razor]
+[C:/LaboratorioClient/Pages/Admin/TipoEmpresaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVGlwb0VtcHJlc2FMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Tipo_AplicacionList.razor]
+[C:/LaboratorioClient/Pages/Admin/Tipo_AplicacionList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVGlwb19BcGxpY2FjaW9uTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Tipo_ComponentesList.razor]
+[C:/LaboratorioClient/Pages/Admin/Tipo_ComponentesList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVGlwb19Db21wb25lbnRlc0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Tipo_MaquinaList.razor]
+[C:/LaboratorioClient/Pages/Admin/Tipo_MaquinaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVGlwb19NYXF1aW5hTGlzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Admin/Unidad_MedidaList.razor]
+[C:/LaboratorioClient/Pages/Admin/Unidad_MedidaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVW5pZGFkX01lZGlkYUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Caracteristicas.razor]
+[C:/LaboratorioClient/Pages/Caracteristicas.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyYWN0ZXJpc3RpY2FzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Componentes/PopupMuestra.razor]
+[C:/LaboratorioClient/Pages/Componentes/PopupMuestra.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50ZXNcUG9wdXBNdWVzdHJhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Counter.razor]
+[C:/LaboratorioClient/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Hero.razor]
+[C:/LaboratorioClient/Pages/Hero.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVyby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Home.razor]
+[C:/LaboratorioClient/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/MainComponentCliente.razor]
+[C:/LaboratorioClient/Pages/MainComponentCliente.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbkNvbXBvbmVudENsaWVudGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/MiFooter.razor]
+[C:/LaboratorioClient/Pages/MiFooter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlGb290ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Pages/Team.razor]
+[C:/LaboratorioClient/Pages/Team.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/_Imports.razor]
+[C:/LaboratorioClient/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Layout/MainLayout.razor]
+[C:/LaboratorioClient/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-pyjq5zvbe9
 
-[C:/Users/Dagoberto/source/repos/LaboratorioClient/Layout/NavMenu.razor]
+[C:/LaboratorioClient/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4svg8sjuik

@@ -4,18 +4,19 @@
 <div>
       <NavMenu />
  </div>
-<br />
-<br />
-<div class="section-title">
-    <h2>Lubricantes</h2>
-</div>
-<div class="row" style="display:flex;justify-content:center">
-    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTipoUnidad" aria-controls="offcanvasScrolling">
-        <img src="Lubricantes.png" class="img-fluid" alt="...">
-    </div>
-    <div class="col-4" style="display:flex;align-items:center">
 
-        <div class="card" style="width:500px; max-height:400px ;height:auto"
+<div id="contenedor">
+    <section id="foto">
+        <div class="section-title; ">
+            <h2>Lubricantes</h2>
+        </div>
+        <br />
+        <div class="col-12" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTipoUnidad" aria-controls="offcanvasScrolling">
+            <img src="Lubricante.png" class="img-fluid" alt="...">
+        </div>
+    </section>
+    <section id="contenido">
+        <div class="card" style="width:auto;max-width:700px; max-height:450px ;height:auto"
                 <div class="card-body. overflow-scroll">
                     <table   class="table table-striped table-hover">
                         <thead>
@@ -29,20 +30,20 @@
                         <tbody>
                         @foreach (var i in Listado)
                         {
-                                        <tr>
-                                            <td>@i.Descripcion_Lubricante_E8</td>
-                                            <td>@i.E11_Marca.Descripcion_Marca_E11</td>
-                                                <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
-                                        </tr>
+                                                <tr>
+                                                    <td>@i.Descripcion_Lubricante_E8</td>
+                                                    <td>@i.E11_Marca.Descripcion_Marca_E11</td>
+                                                        <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                                                </tr>
                         }
                         </tbody>
                     </table>
+
                 </div>
             </div>
 
 
-       
-    </div>
+    </section>
 </div>
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasTipoUnidad" aria-labelledby="offcanvasScrollingLabel">
@@ -75,6 +76,32 @@
         </div>
     </div>
 </div>
+
+
+<style>
+    #contenedor {
+        width: auto;
+        max-width: 1000px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contenido {
+        width: 700px;
+        height: 450px;
+        float: right;
+    }
+
+    #foto {
+        width: 280px;
+        height: 500px;
+        float: left
+    }
+</style>
+
 @code {
     E8_Lubricante nuevolubricante = new E8_Lubricante();
     string RespuestaAlCrear = "";

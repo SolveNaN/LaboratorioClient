@@ -4,18 +4,23 @@
 <div>
       <NavMenu />
  </div>
-<br />
-<br />
-<div class="section-title">
-    <h2>Tipos  Usuario</h2>
-</div>
-<div class="row" style="display:flex;justify-content:center">
-    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTipoUsuario" aria-controls="offcanvasScrolling">
-        <img src="TipoUsuario.png" class="img-fluid" alt="...">
-    </div>
-    <div class="col-8" style="display:flex;align-items:center">
-            
-        <div class="card" style="width:700px; max-height:400px ;height:auto"
+
+<div id="contenedor">
+    <section id="foto">
+
+
+        <div class="section-title;">
+            <h2>Tipos  Usuario</h2>
+        </div>
+        <br />
+        <div class="col-11" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTipoUsuario" aria-controls="offcanvasScrolling">
+            <img src="TipoUsuarioo.jpeg" class="img-fluid" alt="...">
+        </div>
+
+    </section>
+    <section id="contenido">
+
+        <div class="card" style="width:700px; max-height:450px ;height:auto"
                 <div class="card-body. overflow-scroll">
                     <table  class="table table-striped table-hover">
                         <thead>
@@ -36,28 +41,30 @@
                         <tbody>
                         @foreach (var i in ListadoTipoUsuario)
                         {
-                                    <tr>
-                                        <td>@i.A1_Tipo_Empresa.Descripcion_Tipo_Empresa_A1</td>
-                                        <td>@i.Descripcion_Tipo_Usuario_A3</td>
-                                        <td>@i.Ver_Equipos_A3</td>
-                                        <td>@i.Crear_Equipos_A3</td>
-                                        <td>@i.Modificar_Equipos_A3</td>
-                                        <td>@i.Inactivar_Equipos_A3</td>
-                                        <td>@i.Crear_Muestras_A3</td>
-                                        <td>@i.Ver_Resultados_A3</td>
-                                        <td>@i.Modificar_Resultados_A3</td>
-                                        <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
-                                   </tr>
+                                            <tr>
+                                                <td>@i.A1_Tipo_Empresa.Descripcion_Tipo_Empresa_A1</td>
+                                                <td>@i.Descripcion_Tipo_Usuario_A3</td>
+                                                <td>@i.Ver_Equipos_A3</td>
+                                                <td>@i.Crear_Equipos_A3</td>
+                                                <td>@i.Modificar_Equipos_A3</td>
+                                                <td>@i.Inactivar_Equipos_A3</td>
+                                                <td>@i.Crear_Muestras_A3</td>
+                                                <td>@i.Ver_Resultados_A3</td>
+                                                <td>@i.Modificar_Resultados_A3</td>
+                                                <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                                           </tr>
                         }
                         </tbody>
                     </table>
                 </div>
             </div>
-            
-            
 
-        
-    </div>
+    </section>
+
+
+
+
+
 </div>
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasTipoUsuario" aria-labelledby="offcanvasScrollingLabel">
@@ -68,7 +75,7 @@
     <div class="offcanvas-body">
         <p>Laboratorio activo con presencia en mas de 18 paises</p>
         <br />
-        <div>           
+        <div>
             <label>Tipo empresa</label>
             <select @bind=nuevotipousuario.A1_Tipo_EmpresaId class="form-select" aria-label="Default select example">
                 <option selected>Abrir lista de tipos de empresa </option>
@@ -104,6 +111,30 @@
     </div>
 </div>
 
+
+<style>
+    #contenedor {
+        width: auto;
+        max-width: 1000px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contenido {
+        width: 700px;
+        height: 450px;
+        float: right;
+    }
+
+    #foto {
+        width: 280px;
+        height: 500px;
+        float: left
+    }
+</style>
 
 @code {
     A3_Tipo_Usuario nuevotipousuario = new A3_Tipo_Usuario();

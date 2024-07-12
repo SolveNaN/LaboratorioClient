@@ -4,19 +4,21 @@
 <div>
       <NavMenu />
  </div>
-<br />
-<br />
-<div class="section-title">
-    <h2>Couriers</h2>
-</div>
-<div class="row" style="display:flex;justify-content:center">
-    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCourier" aria-controls="offcanvasScrolling">
-        <img src="Couriers.png" class="img-fluid" alt="...">
-    </div>
-    <div class="col-4" style="display:flex;align-items:center">
-        <div class="card" style="width:500px; max-height:400px ;height:auto"
-                <div class="card-body. overflow-scroll">
-                    <table  class="table table-striped table-hover">
+
+<div id="contenedor">
+    <section id="foto">
+        <div class="section-title; ">
+            <h2>Couriers</h2>
+        </div>
+        <br />
+        <div class="col-12" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCourier" aria-controls="offcanvasScrolling">
+            <img src="Courier.png" class="img-fluid" alt="...">
+        </div>
+    </section>
+    <section id="contenido">
+        <div class="card" style="width:auto;max-width:700px; max-height:450px ;height:auto"
+                <div class="card-body. overflow-scroll"> 
+                 <table  class="table table-striped table-hover">
                         <thead>
                             <tr>
                                 <th>Nombre del Couriers</th>
@@ -34,10 +36,12 @@
                         }
                         </tbody>
                     </table>
+             
                 </div>
             </div>
         
-    </div>
+
+    </section>
 </div>
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasCourier" aria-labelledby="offcanvasScrollingLabel">
@@ -61,6 +65,31 @@
         </div>
     </div>
 </div>
+
+
+<style>
+    #contenedor {
+        width: auto;
+        max-width: 1000px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contenido {
+        width: 700px;
+        height: 450px;
+        float: right;
+    }
+
+    #foto {
+        width: 280px;
+        height: 500px;
+        float: left
+    }
+</style>
 
 @code {
     E16_Courrier nuevocourier = new E16_Courrier();

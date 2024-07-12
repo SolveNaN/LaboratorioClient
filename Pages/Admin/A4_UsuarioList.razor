@@ -4,17 +4,20 @@
 <div>
       <NavMenu />
  </div>
-<br />
-<br />
-<div class="section-title">
-    <h2>Usuarios</h2>
-</div>
-<div class="row" style="display:flex;justify-content:center">
-    <div class="col-4" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUsuario" aria-controls="offcanvasScrolling">
-        <img src="Users.jfif" class="img-fluid" alt="...">
-    </div>
-    <div class="col-4" style="display:flex;align-items:center">
-        <table  class="table table-striped table-hover">
+
+<div id="contenedor">
+    <section id="foto">
+        <div class="section-title">
+            <h2>Usuarios</h2>
+        </div>
+        <div class="col-8" style="cursor:pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUsuario" aria-controls="offcanvasScrolling">
+            <img src="Userss.jfif" class="img-fluid" alt="...">
+        </div>
+    </section>
+    <section id="contenido">
+        <div class="card" style="width:auto;max-width:700px; max-height:450px ;height:auto"
+                <div class="card-body. overflow-scroll">
+                    <table  class="table table-striped table-hover">
             <thead>
                 <tr>
 
@@ -31,29 +34,35 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var i in ListadoUsuarios)
-                {
-                    <tr>
-                        <td>@i.Nombre_A4</td>
-                        <td>@i.Apellido_A4</td>
-                        <td>@i.Mail_A4</td>
-                        <td>@i.Direccion_A4</td>
-                        <td>@i.Telefono_A4</td>
-                        <td>@i.A3_Tipo_Usuario.Descripcion_Tipo_Usuario_A3</td>
-                        <td>@i.A2_Empresa.Nombre_Empresa_A2</td>
-                        <td>@i.A6_Ciudad.Nombre_Ciudad_A6</td>
-                        <td>@i.Fecha_Creacion_A4</td>
+                        @foreach (var i in ListadoUsuarios)
+                        {
+                            <tr>
+                                <td>@i.Nombre_A4</td>
+                                <td>@i.Apellido_A4</td>
+                                <td>@i.Mail_A4</td>
+                                <td>@i.Direccion_A4</td>
+                                <td>@i.Telefono_A4</td>
+                                <td>@i.A3_Tipo_Usuario.Descripcion_Tipo_Usuario_A3</td>
+                                <td>@i.A2_Empresa.Nombre_Empresa_A2</td>
+                                <td>@i.A6_Ciudad.Nombre_Ciudad_A6</td>
+                                <td>@i.Fecha_Creacion_A4</td>
 
 
-                        <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
-                    </tr>
-                }
+                                <td> <button type="button" class="btn btn-outline-secondary" @onclick="()=>Eliminar(i)">Eliminar</button> </td>
+                            </tr>
+                        }
             </tbody>
         </table>
-       
+                </div>
+            </div>
 
 
-    </div>
+    </section>
+
+
+
+
+
 </div>
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasUsuario" aria-labelledby="offcanvasScrollingLabel">
@@ -112,6 +121,30 @@
     </div>
 </div>
 
+<style>
+    #contenedor {
+        width: auto;
+        max-width: 1000px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contenido {
+        width: 700px;
+        height: 450px;
+        float: right;
+    }
+
+    #foto {
+        width: 280px;
+        height: 500px;
+        float: left
+    }
+</style>
+
 @code {
     UsuarioDTO nuevousuario = new UsuarioDTO();
     string RespuestaAlCrear = "";
@@ -157,3 +190,4 @@
         await Actualizar();
     }
 }
+

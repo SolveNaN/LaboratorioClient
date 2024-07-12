@@ -1,771 +1,771 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\LaboratorioClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\obj\\Debug\\net8.0\\compressed\\6cktxkz0d0.gz",
+      "Id": "C:\\LaboratorioClient\\obj\\Debug\\net8.0\\compressed\\gjitbw3d5t.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LaboratorioClient.styles.css",
+      "Id": "C:\\LaboratorioClient\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LaboratorioClient.styles.css",
       "PackagePath": "staticwebassets\\LaboratorioClient.styles.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "Id": "C:\\LaboratorioClient\\obj\\Debug\\net8.0\\service-worker-assets.js",
       "PackagePath": "staticwebassets\\service-worker-assets.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "Id": "C:\\LaboratorioClient\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\CLiente.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\CLiente.png",
       "PackagePath": "staticwebassets\\CLiente.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Camion.jfif",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Camion.jfif",
       "PackagePath": "staticwebassets\\Camion.jfif"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Camion.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Camion.png",
       "PackagePath": "staticwebassets\\Camion.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Clasificacion.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Clasificacion.png",
       "PackagePath": "staticwebassets\\Clasificacion.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Clasificacionlubricantes.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Clasificacionlubricantes.png",
       "PackagePath": "staticwebassets\\Clasificacionlubricantes.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Combustible.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Combustible.png",
       "PackagePath": "staticwebassets\\Combustible.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Componentecliente.jpeg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Componentecliente.jpeg",
       "PackagePath": "staticwebassets\\Componentecliente.jpeg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Compresor.jfif",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Compresor.jfif",
       "PackagePath": "staticwebassets\\Compresor.jfif"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Compresor.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Compresor.png",
       "PackagePath": "staticwebassets\\Compresor.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Couriers.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Couriers.png",
       "PackagePath": "staticwebassets\\Couriers.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Entidadclasificadora.jfif",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Entidadclasificadora.jfif",
       "PackagePath": "staticwebassets\\Entidadclasificadora.jfif"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Especificacionescomponente.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Especificacionescomponente.png",
       "PackagePath": "staticwebassets\\Especificacionescomponente.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Lubricantes.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Lubricantes.png",
       "PackagePath": "staticwebassets\\Lubricantes.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Marcas.jfif",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Marcas.jfif",
       "PackagePath": "staticwebassets\\Marcas.jfif"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Muestra.jpg",
-      "PackagePath": "staticwebassets\\Muestra.jpg"
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Muestra.jpeg",
+      "PackagePath": "staticwebassets\\Muestra.jpeg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\PlantaEle.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\PlantaEle.png",
       "PackagePath": "staticwebassets\\PlantaEle.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Plantaelectrica.jfif",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Plantaelectrica.jfif",
       "PackagePath": "staticwebassets\\Plantaelectrica.jfif"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Prueba.jpg",
-      "PackagePath": "staticwebassets\\Prueba.jpg"
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Prueba.jpeg",
+      "PackagePath": "staticwebassets\\Prueba.jpeg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Resultados.png",
-      "PackagePath": "staticwebassets\\Resultados.png"
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Resultados.jpeg",
+      "PackagePath": "staticwebassets\\Resultados.jpeg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\TipoUsuario.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\TipoUsuario.png",
       "PackagePath": "staticwebassets\\TipoUsuario.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Tipo_Empresa.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Tipo_Empresa.png",
       "PackagePath": "staticwebassets\\Tipo_Empresa.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Tipoaplicacion.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Tipoaplicacion.png",
       "PackagePath": "staticwebassets\\Tipoaplicacion.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Tipocomponente.jfif",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Tipocomponente.jfif",
       "PackagePath": "staticwebassets\\Tipocomponente.jfif"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Tipomaquinaa.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Tipomaquinaa.jpg",
       "PackagePath": "staticwebassets\\Tipomaquinaa.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Tipounidadmedida.webp",
-      "PackagePath": "staticwebassets\\Tipounidadmedida.webp"
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Tipounidadmedida.jpeg",
+      "PackagePath": "staticwebassets\\Tipounidadmedida.jpeg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Unidadmedida.webp",
-      "PackagePath": "staticwebassets\\Unidadmedida.webp"
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Unidadmedida.jpeg",
+      "PackagePath": "staticwebassets\\Unidadmedida.jpeg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\Users.jfif",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\Users.jfif",
       "PackagePath": "staticwebassets\\Users.jfif"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\css\\main.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\css\\main.css",
       "PackagePath": "staticwebassets\\assets\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\css\\style.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\about-img.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\about-img.png",
       "PackagePath": "staticwebassets\\assets\\img\\about-img.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\apple-touch-icon.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\blog\\blog-image-1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\blog\\blog-image-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-image-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\blog\\blog-image-2.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\blog\\blog-image-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-image-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\blog\\blog-image-3.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\blog\\blog-image-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-image-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-1.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-1.png",
       "PackagePath": "staticwebassets\\assets\\img\\clients\\client-1.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-2.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-2.png",
       "PackagePath": "staticwebassets\\assets\\img\\clients\\client-2.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-3.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-3.png",
       "PackagePath": "staticwebassets\\assets\\img\\clients\\client-3.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-4.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-4.png",
       "PackagePath": "staticwebassets\\assets\\img\\clients\\client-4.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-5.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-5.png",
       "PackagePath": "staticwebassets\\assets\\img\\clients\\client-5.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-6.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-6.png",
       "PackagePath": "staticwebassets\\assets\\img\\clients\\client-6.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-7.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-7.png",
       "PackagePath": "staticwebassets\\assets\\img\\clients\\client-7.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-8.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\clients\\client-8.png",
       "PackagePath": "staticwebassets\\assets\\img\\clients\\client-8.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\cta-bg.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\cta-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\cta-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\favicon.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\hero-bg.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\hero-bg.png",
       "PackagePath": "staticwebassets\\assets\\img\\hero-bg.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\hero-img.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\hero-img.png",
       "PackagePath": "staticwebassets\\assets\\img\\hero-img.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\logo.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\logo.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\masonry-portfolio\\masonry-portfolio-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-2.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\masonry-portfolio\\masonry-portfolio-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-3.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\masonry-portfolio\\masonry-portfolio-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-4.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\masonry-portfolio\\masonry-portfolio-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-5.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\masonry-portfolio\\masonry-portfolio-5.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-6.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\masonry-portfolio\\masonry-portfolio-6.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-7.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\masonry-portfolio\\masonry-portfolio-7.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-8.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\masonry-portfolio\\masonry-portfolio-8.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-9.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\masonry-portfolio\\masonry-portfolio-9.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\masonry-portfolio\\masonry-portfolio-9.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\newsletter-bg.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\newsletter-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\newsletter-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\portfolio\\app-1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\portfolio\\app-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\app-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\portfolio\\books-1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\portfolio\\books-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\books-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\portfolio\\branding-1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\portfolio\\branding-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\branding-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\portfolio\\product-1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\portfolio\\product-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\screen\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\2.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\screen\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\3.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\screen\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\4.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\screen\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\5.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\screen\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\6.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\screen\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\7.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\screen\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\8.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\screen\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\9.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\screen\\9.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\screen\\9.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\services.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\services.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\services.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\skills.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\skills.png",
       "PackagePath": "staticwebassets\\assets\\img\\skills.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\asteroid.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\asteroid.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\asteroid.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\cloud-computing.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\cloud-computing.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\cloud-computing.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\cloud.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\cloud.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\cloud.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\code.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\code.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\code.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\design-tool.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\design-tool.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\design-tool.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\paint-palette.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\paint-palette.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\paint-palette.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\pixel.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\pixel.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\pixel.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\planet.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\planet.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\planet.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\tools.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\tools.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\tools.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\vector.svg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\svg\\vector.svg",
       "PackagePath": "staticwebassets\\assets\\img\\svg\\vector.svg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\team\\1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\team\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\team\\2.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\team\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\team\\3.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\team\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\team\\4.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\team\\4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\team\\team-1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\team\\team-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\team\\team-2.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\team\\team-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\team\\team-3.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\team\\team-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\team\\team-4.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\team\\team-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\team-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-5.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\video-bg.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\video-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\video-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\img\\why-us.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\img\\why-us.png",
       "PackagePath": "staticwebassets\\assets\\img\\why-us.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\js\\main.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\assets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\scss\\Readme.txt",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\scss\\Readme.txt",
       "PackagePath": "staticwebassets\\assets\\scss\\Readme.txt"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.cjs.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.esm.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\plyr.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\css\\plyr.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\plyr.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\php-email-form\\validate.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
       "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\assets\\vendor\\waypoints\\noframework.waypoints.js",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\assets\\vendor\\waypoints\\noframework.waypoints.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\waypoints\\noframework.waypoints.js"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\colombiamapa.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\colombiamapa.png",
       "PackagePath": "staticwebassets\\colombiamapa.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\css\\app.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\cuidad.png",
-      "PackagePath": "staticwebassets\\cuidad.png"
+      "Id": "C:\\LaboratorioClient\\wwwroot\\cuidadd.png",
+      "PackagePath": "staticwebassets\\cuidadd.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\favicon.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\favicon.jpg",
       "PackagePath": "staticwebassets\\favicon.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\favicon.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\icon-192.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\icon-512.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\icon-512.png",
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\icon.jpg",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\icon.jpg",
       "PackagePath": "staticwebassets\\icon.jpg"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\ii.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\ii.png",
       "PackagePath": "staticwebassets\\ii.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\index.html",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\industria.png",
-      "PackagePath": "staticwebassets\\industria.png"
+      "Id": "C:\\LaboratorioClient\\wwwroot\\industriaa.png",
+      "PackagePath": "staticwebassets\\industriaa.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\manifest.webmanifest",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\manifest.webmanifest",
       "PackagePath": "staticwebassets\\manifest.webmanifest"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\mapa.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\mapa.png",
       "PackagePath": "staticwebassets\\mapa.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\oil-industry-logo-vector-6546527.svg",
+      "PackagePath": "staticwebassets\\oil-industry-logo-vector-6546527.svg"
+    },
+    {
+      "Id": "C:\\LaboratorioClient\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\tipoempresa.png",
-      "PackagePath": "staticwebassets\\tipoempresa.png"
+      "Id": "C:\\LaboratorioClient\\wwwroot\\tipoempresaa.png",
+      "PackagePath": "staticwebassets\\tipoempresaa.png"
     },
     {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\unidadmedida.jpg",
-      "PackagePath": "staticwebassets\\unidadmedida.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\usertypes.png",
+      "Id": "C:\\LaboratorioClient\\wwwroot\\usertypes.png",
       "PackagePath": "staticwebassets\\usertypes.png"
     },
     {
