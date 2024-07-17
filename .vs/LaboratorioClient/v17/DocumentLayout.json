@@ -1,78 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\LaboratorioClient\\",
+  "WorkspaceRootPath": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\lubricanteslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\lubricanteslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\users\\dagoberto\\source\\repos\\laboratorioclient\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\l1_pruebalist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\l1_pruebalist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\e16_courrierslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\e16_courrierslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\resultadolist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\users\\dagoberto\\source\\repos\\laboratorioclient\\pages\\admin\\resultadolist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\resultadolist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\muestralist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\muestralist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\users\\dagoberto\\source\\repos\\laboratorioclient\\pages\\maincomponentcliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\maincomponentcliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\unidad_medidalist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\unidad_medidalist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\users\\dagoberto\\source\\repos\\laboratorioclient\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\e12_tipo_unidadlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\e12_tipo_unidadlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\users\\dagoberto\\source\\repos\\laboratorioclient\\pages\\mifooter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\mifooter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\marcaslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\marcaslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\users\\dagoberto\\source\\repos\\laboratorioclient\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\e10_combustiblelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\e10_combustiblelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\clasificacion_lubricanteslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\clasificacion_lubricanteslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\e7_clasificacionlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\e7_clasificacionlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\entidad_clasificadorlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\entidad_clasificadorlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\componente_cliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\componente_cliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\especificaciones_componentelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\especificaciones_componentelist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\tipo_componenteslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\tipo_componenteslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\tipo_maquinalist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\tipo_maquinalist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\tipo_aplicacionlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\tipo_aplicacionlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\laboratorioclient\\pages\\admin\\a7_sub_empresalist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\admin\\a7_sub_empresalist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|c:\\users\\dagoberto\\source\\repos\\laboratorioclient\\pages\\hero.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7458D148-96D7-4D15-9229-0E76E2AE25BE}|LaboratorioClient.csproj|solutionrelative:pages\\hero.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,245 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LubricantesList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\LubricantesList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\LubricantesList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\LubricantesList.razor",
-              "RelativeToolTip": "Pages\\Admin\\LubricantesList.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T02:02:41.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "L1_PruebaList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\L1_PruebaList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\L1_PruebaList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\L1_PruebaList.razor",
-              "RelativeToolTip": "Pages\\Admin\\L1_PruebaList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:59:33.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "E16_CourriersList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\E16_CourriersList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\E16_CourriersList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\E16_CourriersList.razor",
-              "RelativeToolTip": "Pages\\Admin\\E16_CourriersList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:58:38.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ResultadoList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\ResultadoList.razor",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\Admin\\ResultadoList.razor",
               "RelativeDocumentMoniker": "Pages\\Admin\\ResultadoList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\ResultadoList.razor",
+              "ToolTip": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\Admin\\ResultadoList.razor",
               "RelativeToolTip": "Pages\\Admin\\ResultadoList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:57:52.858Z",
+              "WhenOpened": "2024-07-17T01:36:05.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MuestraList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\MuestraList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\MuestraList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\MuestraList.razor",
-              "RelativeToolTip": "Pages\\Admin\\MuestraList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Title": "MiFooter.razor",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\MiFooter.razor",
+              "RelativeDocumentMoniker": "Pages\\MiFooter.razor",
+              "ToolTip": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\MiFooter.razor",
+              "RelativeToolTip": "Pages\\MiFooter.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:57:10.627Z",
+              "WhenOpened": "2024-07-17T01:31:39.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T01:28:21.439Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Unidad_MedidaList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\Unidad_MedidaList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Unidad_MedidaList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\Unidad_MedidaList.razor",
-              "RelativeToolTip": "Pages\\Admin\\Unidad_MedidaList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-07-16T05:24:11.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainComponentCliente.razor",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\MainComponentCliente.razor",
+              "RelativeDocumentMoniker": "Pages\\MainComponentCliente.razor",
+              "ToolTip": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\MainComponentCliente.razor",
+              "RelativeToolTip": "Pages\\MainComponentCliente.razor",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAAwKoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:56:25.981Z",
+              "WhenOpened": "2024-07-16T02:10:08.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T02:10:01.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "E12_Tipo_UnidadList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\E12_Tipo_UnidadList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\E12_Tipo_UnidadList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\E12_Tipo_UnidadList.razor",
-              "RelativeToolTip": "Pages\\Admin\\E12_Tipo_UnidadList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Title": "Hero.razor",
+              "DocumentMoniker": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\Hero.razor",
+              "RelativeDocumentMoniker": "Pages\\Hero.razor",
+              "ToolTip": "C:\\Users\\Dagoberto\\source\\repos\\LaboratorioClient\\Pages\\Hero.razor",
+              "RelativeToolTip": "Pages\\Hero.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:55:29.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MarcasList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\MarcasList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\MarcasList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\MarcasList.razor",
-              "RelativeToolTip": "Pages\\Admin\\MarcasList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:54:20.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "E10_CombustibleList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\E10_CombustibleList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\E10_CombustibleList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\E10_CombustibleList.razor",
-              "RelativeToolTip": "Pages\\Admin\\E10_CombustibleList.razor",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:52:49.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Clasificacion_LubricantesList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\Clasificacion_LubricantesList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Clasificacion_LubricantesList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\Clasificacion_LubricantesList.razor",
-              "RelativeToolTip": "Pages\\Admin\\Clasificacion_LubricantesList.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:52:04.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "E7_ClasificacionList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\E7_ClasificacionList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\E7_ClasificacionList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\E7_ClasificacionList.razor",
-              "RelativeToolTip": "Pages\\Admin\\E7_ClasificacionList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:51:17.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Entidad_ClasificadorList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\Entidad_ClasificadorList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Entidad_ClasificadorList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\Entidad_ClasificadorList.razor",
-              "RelativeToolTip": "Pages\\Admin\\Entidad_ClasificadorList.razor",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:50:50.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Componente_Cliente.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\Componente_Cliente.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Componente_Cliente.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\Componente_Cliente.razor",
-              "RelativeToolTip": "Pages\\Admin\\Componente_Cliente.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:46:21.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Especificaciones_ComponenteList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\Especificaciones_ComponenteList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Especificaciones_ComponenteList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\Especificaciones_ComponenteList.razor",
-              "RelativeToolTip": "Pages\\Admin\\Especificaciones_ComponenteList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:44:06.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Tipo_ComponentesList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\Tipo_ComponentesList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Tipo_ComponentesList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\Tipo_ComponentesList.razor",
-              "RelativeToolTip": "Pages\\Admin\\Tipo_ComponentesList.razor",
-              "ViewState": "AQIAAAQAAAAAMzMzMzMLwA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:42:38.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Tipo_MaquinaList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\Tipo_MaquinaList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Tipo_MaquinaList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\Tipo_MaquinaList.razor",
-              "RelativeToolTip": "Pages\\Admin\\Tipo_MaquinaList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:41:19.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Tipo_AplicacionList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\Tipo_AplicacionList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\Tipo_AplicacionList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\Tipo_AplicacionList.razor",
-              "RelativeToolTip": "Pages\\Admin\\Tipo_AplicacionList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:37:50.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "A7_Sub_EmpresaList.razor",
-              "DocumentMoniker": "C:\\LaboratorioClient\\Pages\\Admin\\A7_Sub_EmpresaList.razor",
-              "RelativeDocumentMoniker": "Pages\\Admin\\A7_Sub_EmpresaList.razor",
-              "ToolTip": "C:\\LaboratorioClient\\Pages\\Admin\\A7_Sub_EmpresaList.razor",
-              "RelativeToolTip": "Pages\\Admin\\A7_Sub_EmpresaList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T01:37:03.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "WhenOpened": "2024-07-13T19:05:14.465Z"
             }
           ]
         }

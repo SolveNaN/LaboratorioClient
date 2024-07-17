@@ -125,10 +125,11 @@
     public static List<E15_Resultado> Listado = new List<E15_Resultado>();
     public static List<E14_Muestra> ListadoE14_Muestra = new List<E14_Muestra>();
     public static List<L1_Prueba> ListadoL1_Prueba = new List<L1_Prueba>();
-   
+
 
     async Task Guardar()
     {
+        nuevoresultado.Id = 0;
         RespuestaAlCrear = "Procesando...";
         var respuesta = await Http.PostAsJsonAsync($"{miconexion.Servidor}/api/E15_Resultado/Crear", nuevoresultado);
         await Actualizar();

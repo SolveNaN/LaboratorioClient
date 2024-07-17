@@ -47,6 +47,31 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+    <script>
+        window.Graficar = async (LabelsResultadosMuestra, ResultadosMuestra, IdElemento) => {            
+            const ctx = document.getElementById(IdElemento);
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: LabelsResultadosMuestra,
+                    datasets: [{
+                        label: 'Resultados',
+                        data: ResultadosMuestra,
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+        }
+    </script>
+
     <!-- INICIO PLANTILLA BOOTSTRAP -->
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
@@ -58,6 +83,9 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <!-- FINAL PLANTILLA BOOTSTRAP -->
+    <!-- INICIO LIBRERIA CHARTS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FINAL LIBRERIA CHARTS JS -->
     <script src="_framework/blazor.webassembly.js"></script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>

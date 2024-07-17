@@ -1,12 +1,10 @@
 ﻿@inject HttpClient Http
+@inject IJSRuntime JS
 @using LaboratorioClient.Models
-@using LaboratorioClient.Pages.Componentes
-@if (VerMuestra)
-{
-    <PopupMuestra Componente_Cliente="ComponenteAsignado" Funcion="EsconderMuestra" />
-}
 
-<table class="table table-hover">
+<h3>Componente</h3>
+<br />
+<table class="table table-success table-striped table-hover">
     <thead>
         <tr>
             <th>Volumen Carter</th>
@@ -15,19 +13,18 @@
             <th>Status Registro Componente </th>
             <th>Modelos</th>
             <th>Info Adicional</th>
-            <th>Tipo Maquina</th>    
+            <th>Tipo Maquina</th>
             <th>Marca</th>
             <th>Especificacion Componente</th>
             <th>Empresa</th>
             <th>Unidad de Medida</th>
             <th></th>
-            
         </tr>
     </thead>
     <tbody>
         @foreach (var i in Listado)
         {
-            <tr style="cursor:pointer" @onmouseover="()=>AsignarComponente(i)" >
+            <tr style="cursor:pointer" @onclick="()=>AsignarComponente(i)">
                 <td>@i.Volumen_Carter_E5</td>
                 <td>@i.Placa_Componente_E5</td>
                 <td>@i.Dias_Almacenamiento_Componente_Cliente_E5</td>
@@ -44,8 +41,135 @@
         }
     </tbody>
 </table>
+<h3>Muestra</h3>
+<br />
+@if (true)
+{
+    <div class="row">
+        <div class="col-10">
+            <table class="table table-dark table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Courier</th>
+                        <th scope="col">Guia</th>
+                        <th scope="col">Serv Ace</th>
+                        <th scope="col">Servicio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var i in Muestras.Where(x => x.E5_Componente_ClienteId == ComponenteAsignado.Id))
+                    {
+                        <tr style="cursor:pointer" @onclick="()=>AsignarMuestra(i)">
+                            <td>@i.Fecha_Registro_E14</td>
+                            <td>@i.E16_Courrier.Nombre_Courrier_E16</td>
+                            <td>@i.Numero_Guia_E14</td>
+                            <td>@i.Servicio_Aceite_E14</td>
+                            <td>@i.Servicio_Componente_E14</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-2">
+            @if (ComponenteAsignado.Id > 0 && ComponenteAsignado.E2_Tipo_Maquina.Descripcion_Maquina_E2 == "Camion")
+            {
+                <img src="/Camion.png" class="img-fluid" alt="...">
+            }
+            @if (ComponenteAsignado.Id > 0 && ComponenteAsignado.E2_Tipo_Maquina.Descripcion_Maquina_E2 == "Compresor")
+            {
+                <img src="/Compresor.png" class="img-fluid" alt="...">
+            }
+            @if (ComponenteAsignado.Id > 0 && ComponenteAsignado.E2_Tipo_Maquina.Descripcion_Maquina_E2 == "Planta Electrica")
+            {
+                <img src="/PlantaEle.png" class="img-fluid" alt="...">
+            }
+        </div>
+    </div>
 
+}
+<h3>Resultados</h3>
+@if (true)
+{
+    <div class="row">
+        <div class="col-6">
+            <!-- ======= Testimonials Section ======= -->
+            <section id="testimonials" class="padd-section text-center">
+                <div class="container" data-aos="fade-up">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <div class="testimonials-content">
+                                <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Texto</th>
+                                                <th scope="col">Valor</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var i in Resultados.Where(x => x.E14_MuestraId == MuestraAsignada.Id))
+                                            {
+                                                <tr>
+                                                    <td>@i.Texto_Prueba_L15</td>
+                                                    <td>@i.Valor_Prueba_L15</td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End Testimonials Section -->
+        </div>
+        <div class="col-6">
+            <!-- ======= Testimonials Section ======= -->
+            <section id="testimonials" class="padd-section text-center">
+                <div class="container" data-aos="fade-up">
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <div class="testimonials-content">
+                                <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
+                                    @if (verGrafica)
+                                    {                                        
+                                        <div class="bar-chart">
+                                            @foreach (var i in DatosGrap)
+                                            {                                               
+                                                <div class="bar" style="height: @i.Porcentaje(sumavalores);">@i.Label : @i.Valor</div>
+                                            }                                          
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End Testimonials Section -->
+        </div>
+    </div>
+}
 
+<style>
+    .bar-chart {
+        display: flex;
+        align-items: flex-end;
+        height: 200px;
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+
+    .bar {
+        flex: 1;
+        margin: 0 5px;
+        background-color: #4CAF50;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+    }
+</style>
+<MiFooter />
 @code {
     E5_Componente_Cliente nuevocomponentecliente = new E5_Componente_Cliente();
     string RespuestaAlCrear = "";
@@ -56,6 +180,8 @@
     public static List<E4_Especificaciones_Componente> ListadoE4_Especificaciones_Componente = new List<E4_Especificaciones_Componente>();
     public static List<A2_Empresa> ListadoA2_Empresa = new List<A2_Empresa>();
     public static List<E13_Unidad_Medida> ListadoE13_Unidad_Medida = new List<E13_Unidad_Medida>();
+    public static List<E14_Muestra> Muestras = new List<E14_Muestra>();
+    public static List<E15_Resultado> Resultados = new List<E15_Resultado>();
     Conexion miconexion = new Conexion();
 
     async Task Guardar()
@@ -89,12 +215,24 @@
         var listado = await Http.GetFromJsonAsync<List<E5_Componente_Cliente>>($"{miconexion.Servidor}/api/E5_Componente_Cliente/Listado");
         Listado = listado;
 
+        var muestras = await Http.GetFromJsonAsync<List<E14_Muestra>>($"{miconexion.Servidor}/api/E14_Muestra/Listado");
+        Muestras = muestras;
 
+        var resultados = await Http.GetFromJsonAsync<List<E15_Resultado>>($"{miconexion.Servidor}/api/E15_Resultado/Listado");
+        Resultados = resultados;
 
     }
     protected override async Task OnInitializedAsync()
     {
         await Actualizar();
+        try
+        {
+            await Graficar();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message + " Error en proceso de graficacion de valores");
+        }
     }
     async Task Eliminar(E5_Componente_Cliente objeto)
     {
@@ -105,14 +243,71 @@
         await Actualizar();
     }
 
-    void EsconderMuestra()
-    {
-        VerMuestra = false;
-    }
+
     E5_Componente_Cliente ComponenteAsignado = new E5_Componente_Cliente();
+    E14_Muestra MuestraAsignada = new E14_Muestra();
     void AsignarComponente(E5_Componente_Cliente componente)
     {
         VerMuestra = true;
         ComponenteAsignado = componente;
+    }
+    public static List<double> ResultadosMuestra = new List<double>();
+    public static List<string> LabelsResultadosMuestra = new List<string>();
+    double sumavalores = 0;
+    async Task AsignarMuestra(E14_Muestra muestra)
+    {
+
+        ResultadosMuestra.Clear();
+        LabelsResultadosMuestra.Clear();
+        DatosGrap.Clear();
+        sumavalores = 0;
+        MuestraAsignada = muestra;
+        var resultadosmuestra = Resultados.Where(x => x.E14_MuestraId == MuestraAsignada.Id).ToList();
+        sumavalores = resultadosmuestra.Sum(x => x.Valor_Prueba_L15);
+        foreach (var i in resultadosmuestra)
+        {
+            LabelsResultadosMuestra.Add(i.Texto_Prueba_L15);
+            ResultadosMuestra.Add(i.Valor_Prueba_L15);
+            var datos = new ComGrafica();
+            datos.Valor = i.Valor_Prueba_L15;
+            datos.Label = i.Texto_Prueba_L15;
+         
+            DatosGrap.Add(datos);
+        }
+        try
+        {
+            await Graficar();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message + " Error en proceso de graficacion de valores");
+        }
+
+    }
+    bool verGrafica = false;
+    string IdElemento = "myChart";
+    int contador = 0;
+    async Task Graficar()
+    {
+        await JS.InvokeVoidAsync("Graficar", LabelsResultadosMuestra, ResultadosMuestra, IdElemento);
+        verGrafica = true;
+        IdElemento = IdElemento + Convert.ToString(contador);
+        contador += 1;
+    }
+    void EsconderGrafica()
+    {
+        verGrafica = false;
+    }
+    public static List<ComGrafica> DatosGrap = new List<ComGrafica>();
+    public class ComGrafica
+    {
+        public double Valor { get; set; }
+        public string Label { get; set; } = string.Empty;
+        public string Porcentaje(double valTot)
+        {
+            var fraccion = Math.Round((Valor / valTot)*100,0);
+            string proc = Convert.ToString(fraccion) + "%";
+            return proc;
+        }
     }
 }

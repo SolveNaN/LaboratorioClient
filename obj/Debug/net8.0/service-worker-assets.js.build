@@ -574,11 +574,11 @@
     },
     {
       "hash": "sha256-cfqTAZ5CIDLNcTtQ0Vby8ejDwgauIcRoZ6P68WLIqNQ=",
-      "url": "Clasificacion.png"
+      "url": "Clasificacio.png"
     },
     {
       "hash": "sha256-Y2Qw0ZcCT4fhzIFx\/hcCswvEewFLCZYjDnJMbfOqnC0=",
-      "url": "Clasificacionlubricantes.png"
+      "url": "Clasificacionlubricante.png"
     },
     {
       "hash": "sha256-8pcRop23pxreH4HKX0VMvKupggZQSH4A\/1hAdmQdiZA=",
@@ -590,7 +590,7 @@
     },
     {
       "hash": "sha256-YFVLiKmRR4O+G\/JcRK3RR5wr1EsAL23+k7VuwQ1Rs+s=",
-      "url": "Combustible.png"
+      "url": "Combustibl.png"
     },
     {
       "hash": "sha256-WcQ2DUXPKkhIdbDrfA3SfJUwoZG1yEI39gJneIlRNNE=",
@@ -606,7 +606,7 @@
     },
     {
       "hash": "sha256-1nek+TSdwUdIpIUisGbDsHyDjdDdGGkfpWtuARxrBN8=",
-      "url": "Couriers.png"
+      "url": "Courier.png"
     },
     {
       "hash": "sha256-JOZWd9XYwDyrwjSB0PVTcc602GisYED21qQUCSMlGtI=",
@@ -621,8 +621,8 @@
       "url": "css\/bootstrap\/bootstrap.min.css.map"
     },
     {
-      "hash": "sha256-DyGaMp8p9wprMilFxrlyl+E2LMlAuZQSmLq167lglts=",
-      "url": "cuidadd.png"
+      "hash": "sha256-9Ro2o5moYp6G+6SnZTbfvoc6knZcYNJqKlkEQD6azr8=",
+      "url": "cuida.jpeg"
     },
     {
       "hash": "sha256-bxA1phCcEN5fh9dHQ6wUew0SDfUVGC\/gkgSdvtO72V0=",
@@ -630,7 +630,7 @@
     },
     {
       "hash": "sha256-fnXTJAV9z5bj2u9zb9zA7r82Qsh1JIEjdgX2csgqtxI=",
-      "url": "Especificacionescomponente.png"
+      "url": "Especificacionescomponent.png"
     },
     {
       "hash": "sha256-KpR\/JyBBKO8Ue43MWANqpUqbNTGi50eNGImv6gkA9jY=",
@@ -654,10 +654,10 @@
     },
     {
       "hash": "sha256-iR1RbYtkYRzU0YSF6qeXkhDHtBYZu5T0ApQDIJFtRcQ=",
-      "url": "ii.png"
+      "url": "iii.png"
     },
     {
-      "hash": "sha256-rCldPjjciI38jois4EfbIJCDSPKCq5qmcdLzE0v29mo=",
+      "hash": "sha256-mH99Vf5gpuaMWuk5blFCgQl64neg5+bVFvGb5duVaOI=",
       "url": "index.html"
     },
     {
@@ -665,8 +665,8 @@
       "url": "industriaa.png"
     },
     {
-      "hash": "sha256-IlVWrgrUae2mCH4vSoQZzPHn9+txFba1NaB2G+9IRCI=",
-      "url": "Lubricantes.png"
+      "hash": "sha256-MJLxpDIsTp74RJ6J4cEFl\/DiMoiWyCAkRSw484Gca20=",
+      "url": "Lubricante.png"
     },
     {
       "hash": "sha256-M\/t9l7ptH+Gxve+mYWKGYaE0htNIqKKKhRoY9EtYYbM=",
@@ -678,11 +678,11 @@
     },
     {
       "hash": "sha256-Xv+G48xqKDKIABX84gQTQ0FW2XQVNCeYTOGJ5BJGROE=",
-      "url": "Marcas.jfif"
+      "url": "Marc.jfif"
     },
     {
       "hash": "sha256-zizHnziM2pAU6eSdMHcPG5Ts1xV98UgUzKCreQeRQag=",
-      "url": "Muestra.jpeg"
+      "url": "Muestr.jpeg"
     },
     {
       "hash": "sha256-6fbPCRYe4vGRt9ZBOUQjhGLe+iQJr9TNN33f43m7ax4=",
@@ -698,11 +698,11 @@
     },
     {
       "hash": "sha256-ifBlsXuNzwjZ1V9Z4uwCHRhvEIDCJjoRr2VxOgfF+O8=",
-      "url": "Prueba.jpeg"
+      "url": "Prueb.jpeg"
     },
     {
       "hash": "sha256-nczYDbQwLi40yPLDw3mLlbj87KZ4quB6TGXBS\/w7Q0o=",
-      "url": "Resultados.jpeg"
+      "url": "Resultado.jpeg"
     },
     {
       "hash": "sha256-enKgCMkYmCpfEcmg6Annbmc40VZ\/A6aYYSQjZfVn2cU=",
@@ -710,11 +710,7 @@
     },
     {
       "hash": "sha256-6iv14qbA1WrSfr44HTAP\/G7xgV2+d3\/iIBuCwfVrEXk=",
-      "url": "Tipoaplicacion.png"
-    },
-    {
-      "hash": "sha256-KuOzinwSKP6XJ3JRIkz\/Oy95ND7u1JZnqJPGSYZAPbs=",
-      "url": "Tipocomponente.jfif"
+      "url": "Tipoaplicacionn.png"
     },
     {
       "hash": "sha256-dnE7hwrNGRWlIK23S+GKQsYQqradhKTYbN6LjFddFng=",
@@ -722,15 +718,19 @@
     },
     {
       "hash": "sha256-BCt9Zj19k0NDfck\/V4wy1O2AH3k6Q7XNwec\/ItydYDo=",
-      "url": "Tipomaquinaa.jpg"
+      "url": "Tipomaquin.jpg"
+    },
+    {
+      "hash": "sha256-KuOzinwSKP6XJ3JRIkz\/Oy95ND7u1JZnqJPGSYZAPbs=",
+      "url": "Tipoomponente.jfif"
     },
     {
       "hash": "sha256-8mkPaiOc7QYmY3aScWP\/PKlx\/P7rpGOyQm0RzUZ9PV8=",
-      "url": "Tipounidadmedida.jpeg"
+      "url": "Tipounidadmedid.jpeg"
     },
     {
-      "hash": "sha256-sRA9ndh8jhMWgaUk8YWdpYcn6jWrM\/ujF3kuzo\/crew=",
-      "url": "TipoUsuario.png"
+      "hash": "sha256-vCDNmeTOOdxwE\/k7MabMLEGQBqjiJqwEvhE8UDPE7+4=",
+      "url": "TipoUsuarioo.jpeg"
     },
     {
       "hash": "sha256-XUjtDWk724Tc5XlZuh\/\/Z8Jcxwp1NrK++449UyE\/IM4=",
@@ -738,11 +738,11 @@
     },
     {
       "hash": "sha256-7zdMk7zsfKC56NDmOCD18uGoy6cABvOl3aEETLHC+gg=",
-      "url": "Unidadmedida.jpeg"
+      "url": "Unidadmedid.jpeg"
     },
     {
       "hash": "sha256-1Uxtj9bnlnNyNngWEw7P1ZAmtxhmiRdRr79Ixpkb3oM=",
-      "url": "Users.jfif"
+      "url": "Userss.jfif"
     },
     {
       "hash": "sha256-e61AKTkytV0JiV7gW3JujZW\/LpweAS\/uI4iQfHhLQJE=",
@@ -1533,16 +1533,16 @@
       "url": "_framework\/dotnet.js.map"
     },
     {
-      "hash": "sha256-YU6M9+jtDVnB8\/wtrgIndOstzNh778Ls8g9XnbjorSk=",
-      "url": "_framework\/dotnet.native.8.0.6.pok0cml5u1.js"
+      "hash": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk=",
+      "url": "_framework\/dotnet.native.8.0.7.erkhfp8uif.js"
     },
     {
       "hash": "sha256-b3QtgAqvT5FoNyYgoEYsdE4zF5C1Is6lhQ8VEkROor8=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-+E96dgYQl8OrHQb4yNZ7QwNr3SZzLSP8lwKRzwSiMsw=",
-      "url": "_framework\/dotnet.runtime.8.0.6.ap8v4vdrrt.js"
+      "hash": "sha256-soZyw6XWXOLKhA26AOyzSpCP5cAsw1wvhdPHSYNTMfQ=",
+      "url": "_framework\/dotnet.runtime.8.0.7.orv18i6ya9.js"
     },
     {
       "hash": "sha256-ZJy9mL+wKLKK2Hsq6aYLUV2q3b4Qdh1Ctwt77xed27s=",
@@ -1561,17 +1561,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-M7YFqkiPiHGkQap7tBNRZqhahr+3itZocC9UIOPdFsQ=",
+      "hash": "sha256-Rqb5a85N0Gcejk\/bFIZNtl2wfJgLLsMlcT\/fbL2QDnk=",
       "url": "_framework\/LaboratorioClient.wasm"
     },
     {
-      "hash": "sha256-R7b+Aoo12pRZOXxhBOJ3cBse\/FzNZhJWfU6qH\/nqOlM=",
+      "hash": "sha256-aV3mZscWYUEV5Sl0qHXLlnWg3j6+sxty5aDqfaHH5oI=",
       "url": "_framework\/LaboratorioClient.pdb"
     },
     {
-      "hash": "sha256-ILAF6GNgGLNU14M8xauchR33w3KLC15HlgBg0o61JFo=",
+      "hash": "sha256-tkxrfAtqeLFxlGzd4ZiBNDlE4wZdpo7ZwTAb9NUQU4A=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "pDKDtkwa"
+  "version": "oBhGWkpA"
 };
